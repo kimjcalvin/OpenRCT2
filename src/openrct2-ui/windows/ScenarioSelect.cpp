@@ -130,31 +130,39 @@ static void initialise_list_items(rct_window* w);
 static bool is_scenario_visible(rct_window* w, const scenario_index_entry* scenario);
 static bool is_locking_enabled(rct_window* w);
 
-static scenarioselect_callback _callback;
+static std::function<void(std::string_view)> _callback;
 static bool _showLockedInformation = false;
 static bool _titleEditor = false;
+static bool _disableLocking{};
 
-/**
- *
- *  rct2: 0x006781B5
- */
 rct_window* window_scenarioselect_open(scenarioselect_callback callback, bool titleEditor)
 {
-    rct_window* window;
-    int32_t windowWidth;
-    int32_t windowHeight = 334;
-
-    _callback = callback;
-
     if (_titleEditor != titleEditor)
     {
         _titleEditor = titleEditor;
         window_close_by_class(WC_SCENARIO_SELECT);
     }
 
-    window = window_bring_to_front_by_class(WC_SCENARIO_SELECT);
+    auto window = window_bring_to_front_by_class(WC_SCENARIO_SELECT);
     if (window != nullptr)
         return window;
+
+    return window_scenarioselect_open(
+        [callback](std::string_view scenario) { callback(std::string(scenario).c_str()); }, titleEditor, titleEditor);
+}
+
+/**
+ *
+ *  rct2: 0x006781B5
+ */
+rct_window* window_scenarioselect_open(std::function<void(std::string_view)> callback, bool titleEditor, bool disableLocking)
+{
+    rct_window* window;
+    int32_t windowWidth;
+    int32_t windowHeight = 334;
+
+    _callback = callback;
+    _disableLocking = disableLocking;
 
     // Load scenario list
     scenario_repository_scan();
@@ -328,10 +336,7 @@ static void window_scenarioselect_scrollmousedown(rct_window* w, int32_t scrollI
                     OpenRCT2::Audio::Play(OpenRCT2::Audio::SoundId::Click1, 0, w->windowPos.x + (w->width / 2));
                     gFirstTimeSaving = true;
                     _callback(listItem.scenario.scenario->path);
-                    if (_titleEditor)
-                    {
-                        window_close(w);
-                    }
+                    window_close(w);
                 }
                 break;
         }
@@ -514,7 +519,10 @@ static void window_scenarioselect_paint(rct_window* w, rct_drawpixelinfo* dpi)
     {
         ft.Add<int16_t>(scenario->objective_arg_3);
         ft.Add<int16_t>(date_get_total_months(MONTH_OCTOBER, scenario->objective_arg_1));
-        ft.Add<int32_t>(scenario->objective_arg_2);
+        if (scenario->objective_type == OBJECTIVE_FINISH_5_ROLLERCOASTERS)
+            ft.Add<uint16_t>(scenario->objective_arg_2);
+        else
+            ft.Add<money32>(scenario->objective_arg_2);
     }
     screenPos.y += gfx_draw_string_left_wrapped(dpi, ft.Data(), screenPos, 170, STR_OBJECTIVE, COLOUR_BLACK) + 5;
 
