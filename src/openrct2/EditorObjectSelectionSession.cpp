@@ -200,6 +200,24 @@ void setup_in_use_selection_flags()
         }
     }
 
+    // Apply selected object status for hacked vehicles that may not have an associated ride
+    for (auto vehicle : EntityList<Vehicle>(EntityListId::TrainHead))
+    {
+        ObjectEntryIndex type = vehicle->ride_subtype;
+        if (type != RIDE_ENTRY_INDEX_NULL) // cable lifts use index null. Ignore them
+        {
+            Editor::SetSelectedObject(ObjectType::Ride, type, OBJECT_SELECTION_FLAG_SELECTED);
+        }
+    }
+    for (auto vehicle : EntityList<Vehicle>(EntityListId::Vehicle))
+    {
+        ObjectEntryIndex type = vehicle->ride_subtype;
+        if (type != RIDE_ENTRY_INDEX_NULL) // cable lifts use index null. Ignore them
+        {
+            Editor::SetSelectedObject(ObjectType::Ride, type, OBJECT_SELECTION_FLAG_SELECTED);
+        }
+    }
+
     int32_t numObjects = static_cast<int32_t>(object_repository_get_items_count());
     const ObjectRepositoryItem* items = object_repository_get_items();
     for (int32_t i = 0; i < numObjects; i++)
@@ -593,10 +611,10 @@ bool window_editor_object_selection_select_object(uint8_t isMasterObject, int32_
 
 bool editor_check_object_group_at_least_one_selected(ObjectType checkObjectType)
 {
-    int32_t numObjects = static_cast<int32_t>(object_repository_get_items_count());
+    auto numObjects = std::min(object_repository_get_items_count(), _objectSelectionFlags.size());
     const ObjectRepositoryItem* items = object_repository_get_items();
 
-    for (int32_t i = 0; i < numObjects; i++)
+    for (size_t i = 0; i < numObjects; i++)
     {
         ObjectType objectType = items[i].ObjectEntry.GetType();
         if (checkObjectType == objectType && (_objectSelectionFlags[i] & OBJECT_SELECTION_FLAG_SELECTED))
