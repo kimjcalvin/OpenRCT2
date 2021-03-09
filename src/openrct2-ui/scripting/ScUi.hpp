@@ -222,14 +222,15 @@ namespace OpenRCT2::Scripting
         {
             try
             {
+                constexpr int32_t MaxLengthAllowed = 4096;
                 auto plugin = _scriptEngine.GetExecInfo().GetCurrentPlugin();
                 auto title = desc["title"].as_string();
                 auto description = desc["description"].as_string();
                 auto initialValue = AsOrDefault(desc["initialValue"], "");
-                auto maxLength = AsOrDefault(desc["maxLength"], std::numeric_limits<int32_t>::max());
+                auto maxLength = AsOrDefault(desc["maxLength"], MaxLengthAllowed);
                 auto callback = desc["callback"];
                 window_text_input_open(
-                    title, description, initialValue, std::max(0, maxLength),
+                    title, description, initialValue, std::clamp(maxLength, 0, MaxLengthAllowed),
                     [this, plugin, callback](std::string_view value) {
                         auto dukValue = ToDuk(_scriptEngine.GetContext(), value);
                         _scriptEngine.ExecutePluginCall(plugin, callback, { dukValue }, false);
@@ -307,6 +308,34 @@ namespace OpenRCT2::Scripting
             CustomMenuItems.emplace_back(owner, text, callback);
         }
 
+        void registerShortcut(DukValue desc)
+        {
+            try
+            {
+                auto& execInfo = _scriptEngine.GetExecInfo();
+                auto owner = execInfo.GetCurrentPlugin();
+                auto id = desc["id"].as_string();
+                auto text = desc["text"].as_string();
+
+                std::vector<std::string> bindings;
+                auto dukBindings = desc["bindings"];
+                if (dukBindings.is_array())
+                {
+                    for (auto binding : dukBindings.as_array())
+                    {
+                        bindings.push_back(binding.as_string());
+                    }
+                }
+
+                auto callback = desc["callback"];
+                CustomShortcuts.emplace_back(std::make_unique<CustomShortcut>(owner, id, text, bindings, callback));
+            }
+            catch (const DukException&)
+            {
+                duk_error(_scriptEngine.GetContext(), DUK_ERR_ERROR, "Invalid parameters.");
+            }
+        }
+
     public:
         static void Register(duk_context* ctx)
         {
@@ -326,6 +355,7 @@ namespace OpenRCT2::Scripting
             dukglue_register_method(ctx, &ScUi::showScenarioSelect, "showScenarioSelect");
             dukglue_register_method(ctx, &ScUi::activateTool, "activateTool");
             dukglue_register_method(ctx, &ScUi::registerMenuItem, "registerMenuItem");
+            dukglue_register_method(ctx, &ScUi::registerShortcut, "registerShortcut");
         }
 
     private:

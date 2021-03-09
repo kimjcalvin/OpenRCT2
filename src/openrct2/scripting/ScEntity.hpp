@@ -16,6 +16,7 @@
 #    include "../peep/Peep.h"
 #    include "../peep/Staff.h"
 #    include "../util/Util.h"
+#    include "../world/EntityList.h"
 #    include "../world/Sprite.h"
 #    include "Duktape.hpp"
 #    include "ScRide.hpp"
@@ -269,6 +270,7 @@ namespace OpenRCT2::Scripting
             dukglue_register_property(ctx, &ScVehicle::poweredMaxSpeed_get, &ScVehicle::poweredMaxSpeed_set, "poweredMaxSpeed");
             dukglue_register_property(ctx, &ScVehicle::status_get, &ScVehicle::status_set, "status");
             dukglue_register_property(ctx, &ScVehicle::peeps_get, nullptr, "peeps");
+            dukglue_register_property(ctx, &ScVehicle::gForces_get, nullptr, "gForces");
             dukglue_register_method(ctx, &ScVehicle::travelBy, "travelBy");
         }
 
@@ -626,6 +628,18 @@ namespace OpenRCT2::Scripting
             return result;
         }
 
+        DukValue gForces_get() const
+        {
+            auto ctx = GetContext()->GetScriptEngine().GetContext();
+            auto vehicle = GetVehicle();
+            if (vehicle != nullptr)
+            {
+                GForces gForces = vehicle->GetGForces();
+                return ToDuk<GForces>(ctx, gForces);
+            }
+            return ToDuk(ctx, nullptr);
+        }
+
         void travelBy(int32_t value)
         {
             ThrowIfGameStateNotMutable();
@@ -743,7 +757,7 @@ namespace OpenRCT2::Scripting
             auto peep = GetPeep();
             if (peep != nullptr)
             {
-                return ToDuk(ctx, CoordsXY(peep->DestinationX, peep->DestinationY));
+                return ToDuk(ctx, peep->GetDestination());
             }
             return ToDuk(ctx, nullptr);
         }
@@ -755,8 +769,7 @@ namespace OpenRCT2::Scripting
             if (peep != nullptr)
             {
                 auto pos = FromDuk<CoordsXY>(value);
-                peep->DestinationX = pos.x;
-                peep->DestinationY = pos.y;
+                peep->SetDestination(pos);
                 peep->Invalidate();
             }
         }
@@ -834,7 +847,7 @@ namespace OpenRCT2::Scripting
             auto peep = GetPeep();
             if (peep != nullptr)
             {
-                return peep->AsGuest();
+                return peep->As<Guest>();
             }
             return nullptr;
         }
@@ -1123,7 +1136,7 @@ namespace OpenRCT2::Scripting
             auto peep = GetPeep();
             if (peep != nullptr)
             {
-                return peep->AsStaff();
+                return peep->As<Staff>();
             }
             return nullptr;
         }

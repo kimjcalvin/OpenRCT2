@@ -26,9 +26,9 @@
 		01C6F0C822FD51FC0057E2F7 /* T6Exporter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C6F0C522FD51FC0057E2F7 /* T6Exporter.cpp */; };
 		01C6F0C922FD51FC0057E2F7 /* T6Importer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01C6F0C622FD51FC0057E2F7 /* T6Importer.cpp */; };
 		01DDFE6522FD608500221318 /* Window_internal.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 01DDFE6422FD608500221318 /* Window_internal.cpp */; };
+		20DE495F25DA8C6B00F2DF6D /* TileElementBase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20DE495E25DA8C6B00F2DF6D /* TileElementBase.cpp */; };
 		2A1F4FE1221FF4B0003CA045 /* Audio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F76C83571EC4E7CC00FA49E2 /* Audio.cpp */; };
 		2A1F4FE2221FF4B0003CA045 /* macos.mm in Sources */ = {isa = PBXBuildFile; fileRef = F76C845D1EC4E7CC00FA49E2 /* macos.mm */; };
-		2A5354E922099C4F00A5440F /* Network.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2A5354E822099C4F00A5440F /* Network.cpp */; };
 		2ADE2F27224418B2002598AF /* Random.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2ADE2F21224418B1002598AF /* Random.hpp */; };
 		2ADE2F28224418B2002598AF /* DataSerialiserTag.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ADE2F22224418B1002598AF /* DataSerialiserTag.h */; };
 		2ADE2F29224418B2002598AF /* Numerics.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2ADE2F23224418B1002598AF /* Numerics.hpp */; };
@@ -59,15 +59,18 @@
 		4C8BB68525533DB9005C8830 /* ZoomLevel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C8BB68425533DB9005C8830 /* ZoomLevel.cpp */; };
 		4C91FD5F25AE476700CA5DA4 /* MusicObject.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C91FD5D25AE476700CA5DA4 /* MusicObject.cpp */; };
 		4C91FD6225AE483700CA5DA4 /* RideAudio.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C91FD6025AE483600CA5DA4 /* RideAudio.cpp */; };
-		4C93F1AD1F8CD9F000A9330D /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C93F1AC1F8CD9F000A9330D /* Input.cpp */; };
-		4C93F1AF1F8CD9F600A9330D /* KeyboardShortcut.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4C93F1AE1F8CD9F600A9330D /* KeyboardShortcut.cpp */; };
 		4CA39E512513F8A00094066B /* RTL.ICU.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CA39E4E2513F8A00094066B /* RTL.ICU.cpp */; };
 		4CA39E522513F8A00094066B /* RTL.FriBidi.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CA39E502513F8A00094066B /* RTL.FriBidi.cpp */; };
 		4CB1375621C2E9F80029FCDA /* SimulateCommands.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB1375521C2E9F80029FCDA /* SimulateCommands.cpp */; };
 		4CB2716A24195B45000CF9EE /* VehicleSubpositionData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB2716824195B45000CF9EE /* VehicleSubpositionData.cpp */; };
 		4CB30179249E382B0034A7F6 /* RCT2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB30178249E382B0034A7F6 /* RCT2.cpp */; };
+		4CB991C525CEE53B00C692B4 /* InputManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB991C425CEE53A00C692B4 /* InputManager.cpp */; };
+		4CB991CB25CEE54500C692B4 /* ShortcutManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB991C625CEE54400C692B4 /* ShortcutManager.cpp */; };
+		4CB991CC25CEE54500C692B4 /* Shortcuts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB991C725CEE54500C692B4 /* Shortcuts.cpp */; };
+		4CB991CD25CEE54500C692B4 /* ShortcutInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CB991C925CEE54500C692B4 /* ShortcutInput.cpp */; };
 		4CC5258223A19C2900D4366D /* TrackDesignAction.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CC5258123A19C2800D4366D /* TrackDesignAction.cpp */; };
 		4CF67197206B7E720034ADDD /* object in Resources */ = {isa = PBXBuildFile; fileRef = 4CF67196206B7E720034ADDD /* object */; };
+		631D7A3625F590A100EA2B45 /* openrct2.icns in Resources */ = {isa = PBXBuildFile; fileRef = 631D7A3525F590A100EA2B45 /* openrct2.icns */; };
 		6341F4E12400AA0F0052902B /* Drawing.Sprite.RLE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6341F4DF2400AA0E0052902B /* Drawing.Sprite.RLE.cpp */; };
 		6341F4E22400AA0F0052902B /* Drawing.Sprite.BMP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6341F4E02400AA0F0052902B /* Drawing.Sprite.BMP.cpp */; };
 		662578A625803AA90002C77E /* discord_rpc.h in Headers */ = {isa = PBXBuildFile; fileRef = 662578A525803AA90002C77E /* discord_rpc.h */; };
@@ -379,7 +382,6 @@
 		C654DF3C1F69C0430040F43D /* TrackDesignManage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C654DF2B1F69C0430040F43D /* TrackDesignManage.cpp */; };
 		C654DF3D1F69C0430040F43D /* TrackDesignPlace.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C654DF2C1F69C0430040F43D /* TrackDesignPlace.cpp */; };
 		C6607F481FE2B97E00D3FC0D /* Input.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4CC4B8E81FE00C5D00660D62 /* Input.cpp */; };
-		C666ED761F33DBB20061AA04 /* ShortcutKeyChange.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C666ED741F33DBB20061AA04 /* ShortcutKeyChange.cpp */; };
 		C666ED771F33DBB20061AA04 /* ShortcutKeys.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C666ED751F33DBB20061AA04 /* ShortcutKeys.cpp */; };
 		C666EE6B1F37ACB10061AA04 /* About.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C666EE551F37ACB10061AA04 /* About.cpp */; };
 		C666EE6C1F37ACB10061AA04 /* Changelog.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C666EE561F37ACB10061AA04 /* Changelog.cpp */; };
@@ -617,7 +619,6 @@
 		C9C630B62235A22D009AD16E /* GameStateSnapshots.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9C630B52235A22C009AD16E /* GameStateSnapshots.cpp */; };
 		D41B73EF1C2101890080A7B9 /* libcurl.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D41B73EE1C2101890080A7B9 /* libcurl.tbd */; };
 		D41B741D1C210A7A0080A7B9 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D41B741C1C210A7A0080A7B9 /* libiconv.tbd */; };
-		D41B74731C2125E50080A7B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D41B74721C2125E50080A7B9 /* Assets.xcassets */; };
 		D43407E21D0E14CE00C2B3D4 /* shaders in Resources */ = {isa = PBXBuildFile; fileRef = D43407E11D0E14CE00C2B3D4 /* shaders */; };
 		D45A38BC1CF3006400659A24 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A38B31CF3006400659A24 /* libcrypto.dylib */; };
 		D45A38C11CF3006400659A24 /* libSDL2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D45A38B81CF3006400659A24 /* libSDL2.dylib */; };
@@ -725,7 +726,6 @@
 		F79F428F1F3260F1009E42F8 /* changelog.txt in Resources */ = {isa = PBXBuildFile; fileRef = F79F428E1F3260F1009E42F8 /* changelog.txt */; };
 		F7C44AF82030E8D3007E099F /* AVX2Drawing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7C44AF62030E74B007E099F /* AVX2Drawing.cpp */; settings = {COMPILER_FLAGS = "-mavx2"; }; };
 		F7CB863F1EEDA0B50030C877 /* WindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7CB863D1EEDA0B50030C877 /* WindowManager.cpp */; };
-		F7CB864A1EEDA1330030C877 /* KeyboardShortcuts.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7CB86471EEDA1330030C877 /* KeyboardShortcuts.cpp */; };
 		F7CB864E1EEDA2050030C877 /* DummyWindowManager.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F7CB864B1EEDA1A80030C877 /* DummyWindowManager.cpp */; };
 		F7D7747F1EC61E5100BE6EBC /* UiContext.macOS.mm in Sources */ = {isa = PBXBuildFile; fileRef = F7D7747E1EC61E5100BE6EBC /* UiContext.macOS.mm */; };
 		F7D7748D1EC66F8600BE6EBC /* libopenrct2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F76C809A1EC4D9FA00FA49E2 /* libopenrct2.a */; };
@@ -838,7 +838,7 @@
 		01C6F0C622FD51FC0057E2F7 /* T6Importer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = T6Importer.cpp; sourceTree = "<group>"; };
 		01C6F0C722FD51FC0057E2F7 /* T6Exporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = T6Exporter.h; sourceTree = "<group>"; };
 		01DDFE6422FD608500221318 /* Window_internal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Window_internal.cpp; sourceTree = "<group>"; };
-		2A5354E822099C4F00A5440F /* Network.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Network.cpp; sourceTree = "<group>"; };
+		20DE495E25DA8C6B00F2DF6D /* TileElementBase.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileElementBase.cpp; sourceTree = "<group>"; };
 		2A5354EA22099C7200A5440F /* CircularBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularBuffer.h; sourceTree = "<group>"; };
 		2ADE2F21224418B1002598AF /* Random.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Random.hpp; sourceTree = "<group>"; };
 		2ADE2F22224418B1002598AF /* DataSerialiserTag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSerialiserTag.h; sourceTree = "<group>"; };
@@ -1113,8 +1113,6 @@
 		4C93F1A21F8B748900A9330D /* SplashBoats.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SplashBoats.cpp; sourceTree = "<group>"; };
 		4C93F1A31F8B748900A9330D /* SubmarineRide.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SubmarineRide.cpp; sourceTree = "<group>"; };
 		4C93F1A41F8B748900A9330D /* WaterCoaster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WaterCoaster.cpp; sourceTree = "<group>"; };
-		4C93F1AC1F8CD9F000A9330D /* Input.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Input.cpp; sourceTree = "<group>"; };
-		4C93F1AE1F8CD9F600A9330D /* KeyboardShortcut.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyboardShortcut.cpp; sourceTree = "<group>"; };
 		4C93F1B01F8E185600A9330D /* Award.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Award.cpp; sourceTree = "<group>"; };
 		4C93F1B11F8E185600A9330D /* Award.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Award.h; sourceTree = "<group>"; };
 		4C93F1B21F8E185600A9330D /* Finance.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Finance.cpp; sourceTree = "<group>"; };
@@ -1133,6 +1131,13 @@
 		4CB2716924195B45000CF9EE /* VehicleSubpositionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleSubpositionData.h; sourceTree = "<group>"; };
 		4CB30178249E382B0034A7F6 /* RCT2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RCT2.cpp; sourceTree = "<group>"; };
 		4CB832AA1EFFB8D100B88761 /* ttf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ttf.h; sourceTree = "<group>"; };
+		4CB991C325CEE53A00C692B4 /* InputManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputManager.h; sourceTree = "<group>"; };
+		4CB991C425CEE53A00C692B4 /* InputManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InputManager.cpp; sourceTree = "<group>"; };
+		4CB991C625CEE54400C692B4 /* ShortcutManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortcutManager.cpp; sourceTree = "<group>"; };
+		4CB991C725CEE54500C692B4 /* Shortcuts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Shortcuts.cpp; sourceTree = "<group>"; };
+		4CB991C825CEE54500C692B4 /* ShortcutManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutManager.h; sourceTree = "<group>"; };
+		4CB991C925CEE54500C692B4 /* ShortcutInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortcutInput.cpp; sourceTree = "<group>"; };
+		4CB991CA25CEE54500C692B4 /* ShortcutIds.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortcutIds.h; sourceTree = "<group>"; };
 		4CC4B8E21FE00C4100660D62 /* CmdlineSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CmdlineSprite.cpp; sourceTree = "<group>"; };
 		4CC4B8E31FE00C4200660D62 /* CmdlineSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CmdlineSprite.h; sourceTree = "<group>"; };
 		4CC4B8E51FE00C4E00660D62 /* Diagnostic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Diagnostic.cpp; sourceTree = "<group>"; };
@@ -1164,6 +1169,7 @@
 		4CFE4E8E1F9625B0005243C2 /* Track.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Track.cpp; sourceTree = "<group>"; };
 		4CFE4E8F1F9625B0005243C2 /* Track.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Track.h; sourceTree = "<group>"; };
 		51160A24250C7A15002029F6 /* GuestPathfinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuestPathfinding.h; sourceTree = "<group>"; };
+		631D7A3525F590A100EA2B45 /* openrct2.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = openrct2.icns; path = resources/mac/openrct2.icns; sourceTree = SOURCE_ROOT; };
 		6341F4DF2400AA0E0052902B /* Drawing.Sprite.RLE.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drawing.Sprite.RLE.cpp; sourceTree = "<group>"; };
 		6341F4E02400AA0F0052902B /* Drawing.Sprite.BMP.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Drawing.Sprite.BMP.cpp; sourceTree = "<group>"; };
 		662578A325803A6C0002C77E /* libdiscord-rpc.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libdiscord-rpc.a"; path = "discord-rpc/build/src/libdiscord-rpc.a"; sourceTree = "<group>"; };
@@ -1332,8 +1338,6 @@
 		9308D9FD209908090079EE96 /* Surface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Surface.h; sourceTree = "<group>"; };
 		930EEA6924FC00940070314E /* ScenarioSelect.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ScenarioSelect.cpp; sourceTree = "<group>"; };
 		9329D51F240C17C60054301C /* BenchUpdate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BenchUpdate.cpp; sourceTree = "<group>"; };
-		932A20CD22D73CEE00C57EDB /* GuestSetNameAction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GuestSetNameAction.hpp; sourceTree = "<group>"; };
-		932A20CE22D73CEE00C57EDB /* RideSetVehiclesAction.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RideSetVehiclesAction.hpp; sourceTree = "<group>"; };
 		932A20CF22D73CEE00C57EDB /* GameActionCompat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameActionCompat.cpp; sourceTree = "<group>"; };
 		932A20D322D73CEF00C57EDB /* GameActionRegistration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameActionRegistration.cpp; sourceTree = "<group>"; };
 		932A20F522D73CF300C57EDB /* GameAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameAction.h; sourceTree = "<group>"; };
@@ -1694,7 +1698,6 @@
 		C654DF2C1F69C0430040F43D /* TrackDesignPlace.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrackDesignPlace.cpp; sourceTree = "<group>"; };
 		C654DF3E1F69C18C0040F43D /* Intent.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Intent.cpp; sourceTree = "<group>"; };
 		C654DF3F1F69C18C0040F43D /* Intent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Intent.h; sourceTree = "<group>"; };
-		C666ED741F33DBB20061AA04 /* ShortcutKeyChange.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortcutKeyChange.cpp; sourceTree = "<group>"; };
 		C666ED751F33DBB20061AA04 /* ShortcutKeys.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShortcutKeys.cpp; sourceTree = "<group>"; };
 		C666EE551F37ACB10061AA04 /* About.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = About.cpp; sourceTree = "<group>"; };
 		C666EE561F37ACB10061AA04 /* Changelog.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Changelog.cpp; sourceTree = "<group>"; };
@@ -1754,7 +1757,6 @@
 		C9C630B52235A22C009AD16E /* GameStateSnapshots.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GameStateSnapshots.cpp; sourceTree = "<group>"; };
 		D41B73EE1C2101890080A7B9 /* libcurl.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libcurl.tbd; path = usr/lib/libcurl.tbd; sourceTree = SDKROOT; };
 		D41B741C1C210A7A0080A7B9 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
-		D41B74721C2125E50080A7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = distribution/macos/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		D43407E11D0E14CE00C2B3D4 /* shaders */ = {isa = PBXFileReference; lastKnownFileType = folder; name = shaders; path = data/shaders; sourceTree = SOURCE_ROOT; };
 		D43BAB921F8C2B2B00A9E362 /* OpenGLAPIProc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenGLAPIProc.h; sourceTree = "<group>"; };
 		D45A38B31CF3006400659A24 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libcrypto.dylib; sourceTree = "<group>"; };
@@ -1919,7 +1921,6 @@
 		F73E320B2011589E00C4D975 /* RideRatings.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RideRatings.cpp; sourceTree = "<group>"; };
 		F73E320C2011589F00C4D975 /* RideRatings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RideRatings.h; sourceTree = "<group>"; };
 		F73E320E2011589F00C4D975 /* TrackDesignSave.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrackDesignSave.cpp; sourceTree = "<group>"; };
-		F74789541EEDEA0D009E50E7 /* Input.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
 		F76C809A1EC4D9FA00FA49E2 /* libopenrct2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libopenrct2.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F76C83571EC4E7CC00FA49E2 /* Audio.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Audio.cpp; sourceTree = "<group>"; };
 		F76C83581EC4E7CC00FA49E2 /* audio.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = audio.h; sourceTree = "<group>"; };
@@ -2134,8 +2135,6 @@
 		F7C44AF62030E74B007E099F /* AVX2Drawing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AVX2Drawing.cpp; sourceTree = "<group>"; };
 		F7CB863D1EEDA0B50030C877 /* WindowManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WindowManager.cpp; sourceTree = "<group>"; };
 		F7CB863E1EEDA0B50030C877 /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
-		F7CB86471EEDA1330030C877 /* KeyboardShortcuts.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KeyboardShortcuts.cpp; sourceTree = "<group>"; };
-		F7CB86481EEDA1330030C877 /* KeyboardShortcuts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyboardShortcuts.h; sourceTree = "<group>"; };
 		F7CB864B1EEDA1A80030C877 /* DummyWindowManager.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DummyWindowManager.cpp; sourceTree = "<group>"; };
 		F7CB864C1EEDA1A80030C877 /* WindowManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WindowManager.h; sourceTree = "<group>"; };
 		F7D7747E1EC61E5100BE6EBC /* UiContext.macOS.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UiContext.macOS.mm; sourceTree = "<group>"; usesTabs = 0; };
@@ -2970,8 +2969,8 @@
 		D497D07A1C20FD52002BF46A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				631D7A3525F590A100EA2B45 /* openrct2.icns */,
 				F79F428E1F3260F1009E42F8 /* changelog.txt */,
-				D41B74721C2125E50080A7B9 /* Assets.xcassets */,
 				D4895D321C23EFDD000CD788 /* Info.plist */,
 				D4C1EDD01C266A0B00F71B63 /* data */,
 			);
@@ -3818,6 +3817,7 @@
 				2ADE2F372244198A002598AF /* SpriteBase.h */,
 				9308D9FB209908080079EE96 /* Surface.cpp */,
 				9308D9FD209908090079EE96 /* Surface.h */,
+				20DE495E25DA8C6B00F2DF6D /* TileElementBase.cpp */,
 				9308D9FA209908080079EE96 /* TileElement.cpp */,
 				9308D9FC209908080079EE96 /* TileElement.h */,
 				4C7B543E2007646A00A52E21 /* TileInspector.cpp */,
@@ -3969,7 +3969,6 @@
 				C6D2BEE51F9BAACD008B557C /* MazeConstruction.cpp */,
 				C666EE5C1F37ACB10061AA04 /* Multiplayer.cpp */,
 				C666EE5D1F37ACB10061AA04 /* MusicCredits.cpp */,
-				2A5354E822099C4F00A5440F /* Network.cpp */,
 				C6D2BEE91F9BB83B008B557C /* NetworkStatus.cpp */,
 				C654DF231F69C0430040F43D /* NewCampaign.cpp */,
 				C685E5141F8907840090598F /* NewRide.cpp */,
@@ -3989,7 +3988,6 @@
 				304FE94F23A2996600470197 /* SceneryScatter.cpp */,
 				C666EE621F37ACB10061AA04 /* ServerList.cpp */,
 				C666EE631F37ACB10061AA04 /* ServerStart.cpp */,
-				C666ED741F33DBB20061AA04 /* ShortcutKeyChange.cpp */,
 				C666ED751F33DBB20061AA04 /* ShortcutKeys.cpp */,
 				C654DF261F69C0430040F43D /* Sign.cpp */,
 				C685E5151F8907840090598F /* Staff.cpp */,
@@ -4020,12 +4018,14 @@
 		F7CB86451EEDA1200030C877 /* input */ = {
 			isa = PBXGroup;
 			children = (
-				4C93F1AC1F8CD9F000A9330D /* Input.cpp */,
-				F74789541EEDEA0D009E50E7 /* Input.h */,
-				4C93F1AE1F8CD9F600A9330D /* KeyboardShortcut.cpp */,
-				F7CB86471EEDA1330030C877 /* KeyboardShortcuts.cpp */,
-				F7CB86481EEDA1330030C877 /* KeyboardShortcuts.h */,
+				4CB991C425CEE53A00C692B4 /* InputManager.cpp */,
+				4CB991C325CEE53A00C692B4 /* InputManager.h */,
 				C68313C71FDB4ED4006DB3D8 /* MouseInput.cpp */,
+				4CB991CA25CEE54500C692B4 /* ShortcutIds.h */,
+				4CB991C925CEE54500C692B4 /* ShortcutInput.cpp */,
+				4CB991C625CEE54400C692B4 /* ShortcutManager.cpp */,
+				4CB991C825CEE54500C692B4 /* ShortcutManager.h */,
+				4CB991C725CEE54500C692B4 /* Shortcuts.cpp */,
 			);
 			path = input;
 			sourceTree = "<group>";
@@ -4184,7 +4184,6 @@
 			buildPhases = (
 				4CF67195206B7BEF0034ADDD /* Download JSON objects */,
 				D4E09E831E049C0600F53CE3 /* Download Title Sequences */,
-				D4EC012A1C25532B00DAFE69 /* Setup AppIcon */,
 				D4CA88671D4E962100060C11 /* Get Git Variables */,
 				D497D0741C20FD52002BF46A /* Sources */,
 				D497D0751C20FD52002BF46A /* Frameworks */,
@@ -4302,12 +4301,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CF67197206B7E720034ADDD /* object in Resources */,
-				D41B74731C2125E50080A7B9 /* Assets.xcassets in Resources */,
 				D4EC48E61C2637710024B507 /* g2.dat in Resources */,
 				D4EC48E71C2637710024B507 /* language in Resources */,
 				F79F428F1F3260F1009E42F8 /* changelog.txt in Resources */,
 				D43407E21D0E14CE00C2B3D4 /* shaders in Resources */,
 				D4EC48E81C2637710024B507 /* sequence in Resources */,
+				631D7A3625F590A100EA2B45 /* openrct2.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4414,37 +4413,6 @@
 			shellPath = /bin/sh;
 			shellScript = "version=\"0.1.2c\"\nzipname=\"title-sequences.zip\"\nliburl=\"https://github.com/OpenRCT2/title-sequences/releases/download/v$version/$zipname\"\n\n[[ ! -d \"${SRCROOT}/data/sequence\" || ! -e \"${SRCROOT}/sequencesversion\" || $(head -n 1 \"${SRCROOT}/sequencesversion\") != $version ]]\noutdated=$?\n\nif [[ $outdated -eq 0 ]]; then\nif [[ -d \"${SRCROOT}/data/sequence\" ]]; then rm -r \"${SRCROOT}/data/sequence\"; fi\nmkdir -p \"${SRCROOT}/data/sequence\"\n\ncurl -L -o \"${SRCROOT}/data/sequence/$zipname\" \"$liburl\"\nunzip -uaq -d \"${SRCROOT}/data/sequence\" \"${SRCROOT}/data/sequence/$zipname\"\nrm \"${SRCROOT}/data/sequence/$zipname\"\n\necho $version > \"${SRCROOT}/sequencesversion\"\nfi\n";
 		};
-		D4EC012A1C25532B00DAFE69 /* Setup AppIcon */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"$(SRCROOT)/resources/logo/icon_x16.png",
-				"$(SRCROOT)/resources/logo/icon_x32.png",
-				"$(SRCROOT)/resources/logo/icon_x64.png",
-				"$(SRCROOT)/resources/logo/icon_x128.png",
-				"$(SRCROOT)/resources/logo/icon_x256.png",
-				"$(SRCROOT)/resources/logo/icon_x512.png",
-				"$(SRCROOT)/resources/logo/icon_x1024.png",
-			);
-			name = "Setup AppIcon";
-			outputPaths = (
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_16x16.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_16x16@2x.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_32x32.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_128x128.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_256x256.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_256x256@2x.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_512x512.png",
-				"$(SRCROOT)/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_16x16.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x16.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_16x16.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_16x16@2x.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x32.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_16x16@2x.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_32x32.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x32.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_32x32.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x64.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_32x32@2x.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_128x128.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x128.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_128x128.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x256.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_128x128@2x.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x256.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_256x256.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_256x256@2x.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x512.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_256x256@2x.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_512x512.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x512.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_512x512.png\"; fi\nif [[ ! -e \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png\" ]]; then ln \"${SRCROOT}/resources/logo/icon_x1024.png\" \"${SRCROOT}/distribution/macos/Assets.xcassets/AppIcon.appiconset/icon_512x512@2x.png\"; fi";
-		};
 		F76C809F1EC4DB0300FA49E2 /* Get Git Variables */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -4535,7 +4503,6 @@
 				C666EE6C1F37ACB10061AA04 /* Changelog.cpp in Sources */,
 				C64644FC1F3FA4120026AC2D /* Footpath.cpp in Sources */,
 				F76C887C1EC5324E00FA49E2 /* MemoryAudioSource.cpp in Sources */,
-				4C93F1AF1F8CD9F600A9330D /* KeyboardShortcut.cpp in Sources */,
 				C654DF3D1F69C0430040F43D /* TrackDesignPlace.cpp in Sources */,
 				C666EE721F37ACB10061AA04 /* Multiplayer.cpp in Sources */,
 				01C6F0C822FD51FC0057E2F7 /* T6Exporter.cpp in Sources */,
@@ -4556,6 +4523,7 @@
 				4CA39E512513F8A00094066B /* RTL.ICU.cpp in Sources */,
 				93CBA4C420A7502E00867D56 /* Imaging.cpp in Sources */,
 				C6D2BEE61F9BAACE008B557C /* TrackList.cpp in Sources */,
+				4CB991CB25CEE54500C692B4 /* ShortcutManager.cpp in Sources */,
 				C666EE701F37ACB10061AA04 /* LandRights.cpp in Sources */,
 				93F6004D213DD7DD00EEB83E /* TerrainEdgeObject.cpp in Sources */,
 				4C724B2221F0AD790012ADD0 /* BenchSpriteSort.cpp in Sources */,
@@ -4570,11 +4538,10 @@
 				C654DF331F69C0430040F43D /* LoadSave.cpp in Sources */,
 				C61ADB211FB7DC060024F2EF /* Scenery.cpp in Sources */,
 				C68878C120289B710084B384 /* ApplyTransparencyShader.cpp in Sources */,
-				C666ED761F33DBB20061AA04 /* ShortcutKeyChange.cpp in Sources */,
+				4CB991C525CEE53B00C692B4 /* InputManager.cpp in Sources */,
 				304FE95023A2996600470197 /* SceneryScatter.cpp in Sources */,
 				C685E51C1F8907850090598F /* Map.cpp in Sources */,
 				4C255959244A328B00CE7E45 /* UiExtensions.cpp in Sources */,
-				F7CB864A1EEDA1330030C877 /* KeyboardShortcuts.cpp in Sources */,
 				01C6F0C922FD51FC0057E2F7 /* T6Importer.cpp in Sources */,
 				4CC5258223A19C2900D4366D /* TrackDesignAction.cpp in Sources */,
 				C654DF381F69C0430040F43D /* StaffFirePrompt.cpp in Sources */,
@@ -4596,6 +4563,7 @@
 				4C91FD5F25AE476700CA5DA4 /* MusicObject.cpp in Sources */,
 				C62D83871FCC7D1A008C04F1 /* EditorObjectSelection.cpp in Sources */,
 				4C3B4236205914F7000C5BB7 /* InGameConsole.cpp in Sources */,
+				4CB991CD25CEE54500C692B4 /* ShortcutInput.cpp in Sources */,
 				C68878C820289B710084B384 /* SwapFramebuffer.cpp in Sources */,
 				C67CCD661FBBCFDB004FAE4C /* EditorBottomToolbar.cpp in Sources */,
 				C666EE731F37ACB10061AA04 /* MusicCredits.cpp in Sources */,
@@ -4614,10 +4582,9 @@
 				C654DF311F69C0430040F43D /* GuestList.cpp in Sources */,
 				4C8BB67C25533D59005C8830 /* JobPool.cpp in Sources */,
 				01C6F0C222FD519E0057E2F7 /* TrackImporter.cpp in Sources */,
-				4C93F1AD1F8CD9F000A9330D /* Input.cpp in Sources */,
 				4C8BB68125533D65005C8830 /* StringBuilder.cpp in Sources */,
 				C666EE761F37ACB10061AA04 /* Options.cpp in Sources */,
-				2A5354E922099C4F00A5440F /* Network.cpp in Sources */,
+				4CB991CC25CEE54500C692B4 /* Shortcuts.cpp in Sources */,
 				C666EE6E1F37ACB10061AA04 /* CustomCurrency.cpp in Sources */,
 				C654DF2D1F69C0430040F43D /* Banner.cpp in Sources */,
 				C666EE711F37ACB10061AA04 /* MapGen.cpp in Sources */,
@@ -4707,6 +4674,7 @@
 				F76C85C41EC4E88300FA49E2 /* Config.cpp in Sources */,
 				66A10EC4257F1DF800DD651A /* FootpathAdditionPlaceAction.cpp in Sources */,
 				C688792920289B9B0084B384 /* Chairlift.cpp in Sources */,
+				20DE495F25DA8C6B00F2DF6D /* TileElementBase.cpp in Sources */,
 				C68878A020289B200084B384 /* LanguagePack.cpp in Sources */,
 				F76C85C71EC4E88300FA49E2 /* IniReader.cpp in Sources */,
 				93F76F0020BFF77B00D4512C /* Paint.Path.cpp in Sources */,
@@ -5205,7 +5173,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_WEAK = YES;
@@ -5247,7 +5214,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_OBJC_WEAK = YES;
