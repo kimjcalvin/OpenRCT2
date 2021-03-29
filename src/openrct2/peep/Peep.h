@@ -56,14 +56,6 @@ namespace GameActions
 }
 using ParkEntranceIndex = uint8_t;
 
-enum class PeepType : uint8_t
-{
-    Guest,
-    Staff,
-
-    Invalid = 0xFF
-};
-
 enum class StaffType : uint8_t
 {
     Handyman,
@@ -570,7 +562,6 @@ struct Peep : SpriteBase
         PeepUsingBinSubState UsingBinSubState;
     };
     PeepSpriteType SpriteType;
-    PeepType AssignedPeepType;
     union
     {
         StaffType AssignedStaffType;
@@ -700,6 +691,7 @@ struct Peep : SpriteBase
     {
         money16 PaidOnFood;
         uint16_t StaffLitterSwept;
+        uint16_t StaffVandalsStopped;
     };
     union
     {
@@ -784,6 +776,8 @@ private:
 
 struct Guest : Peep
 {
+    static constexpr auto cEntityType = EntityType::Guest;
+
 public:
     void UpdateGuest();
     void Tick128UpdateGuest(int32_t index);
@@ -871,6 +865,8 @@ private:
 
 struct Staff : Peep
 {
+    static constexpr auto cEntityType = EntityType::Staff;
+
 public:
     void UpdateStaff(uint32_t stepsToTake);
     void Tick128UpdateStaff();

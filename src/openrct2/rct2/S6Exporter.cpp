@@ -990,9 +990,9 @@ void S6Exporter::RebuildEntityLinks()
 constexpr RCT12EntityLinkListOffset GetRCT2LinkListOffset(const SpriteBase* src)
 {
     RCT12EntityLinkListOffset output = RCT12EntityLinkListOffset::Free;
-    switch (src->sprite_identifier)
+    switch (src->Type)
     {
-        case SpriteIdentifier::Vehicle:
+        case EntityType::Vehicle:
         {
             auto veh = src->As<Vehicle>();
             if (veh && veh->IsHead())
@@ -1005,14 +1005,55 @@ constexpr RCT12EntityLinkListOffset GetRCT2LinkListOffset(const SpriteBase* src)
             }
         }
         break;
-        case SpriteIdentifier::Peep:
+        case EntityType::Guest:
+        case EntityType::Staff:
             output = RCT12EntityLinkListOffset::Peep;
             break;
-        case SpriteIdentifier::Misc:
+        case EntityType::SteamParticle:
+        case EntityType::MoneyEffect:
+        case EntityType::CrashedVehicleParticle:
+        case EntityType::ExplosionCloud:
+        case EntityType::CrashSplash:
+        case EntityType::ExplosionFlare:
+        case EntityType::JumpingFountain:
+        case EntityType::Balloon:
+        case EntityType::Duck:
             output = RCT12EntityLinkListOffset::Misc;
             break;
-        case SpriteIdentifier::Litter:
+        case EntityType::Litter:
             output = RCT12EntityLinkListOffset::Litter;
+            break;
+        default:
+            break;
+    }
+    return output;
+}
+
+constexpr RCT12SpriteIdentifier GetRCT2SpriteIdentifier(const SpriteBase* src)
+{
+    RCT12SpriteIdentifier output = RCT12SpriteIdentifier::Null;
+    switch (src->Type)
+    {
+        case EntityType::Vehicle:
+            output = RCT12SpriteIdentifier::Vehicle;
+            break;
+        case EntityType::Guest:
+        case EntityType::Staff:
+            output = RCT12SpriteIdentifier::Peep;
+            break;
+        case EntityType::SteamParticle:
+        case EntityType::MoneyEffect:
+        case EntityType::CrashedVehicleParticle:
+        case EntityType::ExplosionCloud:
+        case EntityType::CrashSplash:
+        case EntityType::ExplosionFlare:
+        case EntityType::JumpingFountain:
+        case EntityType::Balloon:
+        case EntityType::Duck:
+            output = RCT12SpriteIdentifier::Misc;
+            break;
+        case EntityType::Litter:
+            output = RCT12SpriteIdentifier::Litter;
             break;
         default:
             break;
@@ -1022,7 +1063,7 @@ constexpr RCT12EntityLinkListOffset GetRCT2LinkListOffset(const SpriteBase* src)
 
 void S6Exporter::ExportEntityCommonProperties(RCT12SpriteBase* dst, const SpriteBase* src)
 {
-    dst->sprite_identifier = src->sprite_identifier;
+    dst->sprite_identifier = GetRCT2SpriteIdentifier(src);
     dst->linked_list_type_offset = GetRCT2LinkListOffset(src);
     dst->next_in_quadrant = SPRITE_INDEX_NULL;
     dst->sprite_height_negative = src->sprite_height_negative;
@@ -1159,7 +1200,7 @@ void S6Exporter::ExportEntityPeep(RCT2SpritePeep* dst, const Peep* src)
     }
     if (generateName)
     {
-        if (src->AssignedPeepType == PeepType::Staff)
+        if (src->Is<Staff>())
         {
             static constexpr const rct_string_id staffNames[] = {
                 STR_HANDYMAN_X,
@@ -1187,7 +1228,7 @@ void S6Exporter::ExportEntityPeep(RCT2SpritePeep* dst, const Peep* src)
     dst->state = static_cast<uint8_t>(src->State);
     dst->sub_state = src->SubState;
     dst->sprite_type = static_cast<uint8_t>(src->SpriteType);
-    dst->peep_type = static_cast<uint8_t>(src->AssignedPeepType);
+    dst->peep_type = static_cast<uint8_t>(src->Type == EntityType::Staff ? RCT12PeepType::Staff : RCT12PeepType::Guest);
     dst->no_of_rides = src->GuestNumRides;
     dst->tshirt_colour = src->TshirtColour;
     dst->trousers_colour = src->TrousersColour;
@@ -1292,14 +1333,14 @@ void S6Exporter::ExportEntityPeep(RCT2SpritePeep* dst, const Peep* src)
 template<> void S6Exporter::ExportEntity(RCT12SpriteSteamParticle* dst, const SteamParticle* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::SteamParticle);
     dst->time_to_move = src->time_to_move;
     dst->frame = src->frame;
 }
 template<> void S6Exporter::ExportEntity(RCT12SpriteMoneyEffect* dst, const MoneyEffect* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::MoneyEffect);
     dst->move_delay = src->MoveDelay;
     dst->num_movements = src->NumMovements;
     dst->vertical = src->Vertical;
@@ -1310,7 +1351,7 @@ template<> void S6Exporter::ExportEntity(RCT12SpriteMoneyEffect* dst, const Mone
 template<> void S6Exporter::ExportEntity(RCT12SpriteCrashedVehicleParticle* dst, const VehicleCrashParticle* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::CrashedVehicleParticle);
     dst->frame = src->frame;
     dst->time_to_live = src->time_to_live;
     dst->frame = src->frame;
@@ -1327,7 +1368,9 @@ template<> void S6Exporter::ExportEntity(RCT12SpriteCrashedVehicleParticle* dst,
 template<> void S6Exporter::ExportEntity(RCT12SpriteJumpingFountain* dst, const JumpingFountain* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(
+        src->FountainType == JumpingFountainType::Snow ? RCT12MiscEntityType::JumpingFountainSnow
+                                                       : RCT12MiscEntityType::JumpingFountainWater);
     dst->num_ticks_alive = src->NumTicksAlive;
     dst->frame = src->frame;
     dst->fountain_flags = src->FountainFlags;
@@ -1339,7 +1382,7 @@ template<> void S6Exporter::ExportEntity(RCT12SpriteJumpingFountain* dst, const 
 template<> void S6Exporter::ExportEntity(RCT12SpriteBalloon* dst, const Balloon* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::Balloon);
     dst->popped = src->popped;
     dst->time_to_move = src->time_to_move;
     dst->frame = src->frame;
@@ -1348,7 +1391,7 @@ template<> void S6Exporter::ExportEntity(RCT12SpriteBalloon* dst, const Balloon*
 template<> void S6Exporter::ExportEntity(RCT12SpriteDuck* dst, const Duck* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::Duck);
     dst->frame = src->frame;
     dst->target_x = src->target_x;
     dst->target_y = src->target_y;
@@ -1357,19 +1400,19 @@ template<> void S6Exporter::ExportEntity(RCT12SpriteDuck* dst, const Duck* src)
 template<> void S6Exporter::ExportEntity(RCT12SpriteParticle* dst, const ExplosionCloud* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::ExplosionCloud);
     dst->frame = src->frame;
 }
 template<> void S6Exporter::ExportEntity(RCT12SpriteParticle* dst, const ExplosionFlare* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::ExplosionFlare);
     dst->frame = src->frame;
 }
 template<> void S6Exporter::ExportEntity(RCT12SpriteParticle* dst, const CrashSplashParticle* src)
 {
     ExportEntityCommonProperties(dst, src);
-    dst->type = EnumValue(src->SubType);
+    dst->type = EnumValue(RCT12MiscEntityType::CrashSplash);
     dst->frame = src->frame;
 }
 
@@ -1387,64 +1430,60 @@ void S6Exporter::ExportEntities()
     {
         auto& entity = _s6.sprites[i];
         std::memset(&entity, 0, sizeof(entity));
-        entity.unknown.sprite_identifier = SpriteIdentifier::Null;
+        entity.unknown.sprite_identifier = RCT12SpriteIdentifier::Null;
         entity.unknown.sprite_index = i;
         entity.unknown.linked_list_type_offset = RCT12EntityLinkListOffset::Free;
     }
 
-    for (auto* entity : EntityList<Guest>(EntityListId::Peep))
+    for (auto* entity : EntityList<Guest>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].peep, entity);
     }
-    for (auto* entity : EntityList<Staff>(EntityListId::Peep))
+    for (auto* entity : EntityList<Staff>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].peep, entity);
     }
-    for (auto* entity : EntityList<Vehicle>(EntityListId::Vehicle))
+    for (auto* entity : EntityList<Vehicle>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].vehicle, entity);
     }
-    for (auto* entity : EntityList<Vehicle>(EntityListId::TrainHead))
-    {
-        ExportEntity(&_s6.sprites[entity->sprite_index].vehicle, entity);
-    }
-    for (auto* entity : EntityList<Litter>(EntityListId::Litter))
+    for (auto* entity : EntityList<Litter>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].litter, entity);
     }
-    for (auto* entity : EntityList<Duck>(EntityListId::Misc))
+    for (auto* entity : EntityList<Duck>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].duck, entity);
     }
-    for (auto* entity : EntityList<SteamParticle>(EntityListId::Misc))
+    for (auto* entity : EntityList<SteamParticle>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].steam_particle, entity);
     }
-    for (auto* entity : EntityList<MoneyEffect>(EntityListId::Misc))
+    for (auto* entity : EntityList<MoneyEffect>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].money_effect, entity);
     }
-    for (auto* entity : EntityList<VehicleCrashParticle>(EntityListId::Misc))
+    for (auto* entity : EntityList<VehicleCrashParticle>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].crashed_vehicle_particle, entity);
     }
-    for (auto* entity : EntityList<JumpingFountain>(EntityListId::Misc))
+    for (auto* entity : EntityList<JumpingFountain>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].jumping_fountain, entity);
     }
-    for (auto* entity : EntityList<Balloon>(EntityListId::Misc))
+    for (auto* entity : EntityList<Balloon>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].balloon, entity);
     }
-    for (auto* entity : EntityList<ExplosionCloud>(EntityListId::Misc))
+    for (auto* entity : EntityList<ExplosionCloud>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].misc_particle, entity);
     }
-    for (auto* entity : EntityList<ExplosionFlare>(EntityListId::Misc))
+    for (auto* entity : EntityList<ExplosionFlare>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].misc_particle, entity);
     }
-    for (auto* entity : EntityList<CrashSplashParticle>(EntityListId::Misc))
+    for (auto* entity : EntityList<CrashSplashParticle>())
     {
         ExportEntity(&_s6.sprites[entity->sprite_index].misc_particle, entity);
     }

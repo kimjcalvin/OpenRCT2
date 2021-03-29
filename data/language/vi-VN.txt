@@ -3,81 +3,81 @@
 # Use # at the beginning of a line to leave a comment.
 STR_0000    :
 STR_0001    :{STRINGID} {COMMA16}
-STR_0002    :Spiral Roller Coaster
-STR_0003    :Stand-up Roller Coaster
-STR_0004    :Suspended Swinging Coaster
-STR_0005    :Inverted Roller Coaster
-STR_0006    :Junior Roller Coaster
-STR_0007    :Miniature Railway
-STR_0008    :Monorail
-STR_0009    :Mini Suspended Coaster
-STR_0010    :Boat Hire
-STR_0011    :Wooden Wild Mouse
-STR_0012    :Steeplechase
-STR_0013    :Car Ride
-STR_0014    :Launched Freefall
-STR_0015    :Bobsleigh Coaster
-STR_0016    :Observation Tower
-STR_0017    :Looping Roller Coaster
-STR_0018    :Dinghy Slide
-STR_0019    :Mine Train Coaster
-STR_0020    :Chairlift
-STR_0021    :Corkscrew Roller Coaster
-STR_0022    :Maze
-STR_0023    :Spiral Slide
-STR_0024    :Go-Karts
-STR_0025    :Log Flume
-STR_0026    :River Rapids
-STR_0027    :Dodgems
-STR_0028    :Swinging Ship
-STR_0029    :Swinging Inverter Ship
-STR_0030    :Food Stall
-STR_0031    :Unknown Stall (1D)
-STR_0032    :Drink Stall
-STR_0033    :Unknown Stall (1F)
-STR_0034    :Shop
-STR_0035    :Merry-Go-Round
-STR_0036    :Unknown Stall (22)
-STR_0037    :Information Kiosk
-STR_0038    :Toilets
-STR_0039    :Ferris Wheel
-STR_0040    :Motion Simulator
-STR_0041    :3D Cinema
+STR_0002    :Tàu lượn lốc xoáy
+STR_0003    :Tàu lượn đứng
+STR_0004    :Tàu lượn lắc dừng
+STR_0005    :Tàu lượn ngược
+STR_0006    :Tàu lượn sơ cấp
+STR_0007    :Tàu lửa nhỏ
+STR_0008    :Tàu điện
+STR_0009    :Tàu lượn dừng mini
+STR_0010    :Chèo thuyền
+STR_0011    :Chuột gỗ hoang dã
+STR_0012    :Đua ngựa
+STR_0013    :Lái xe
+STR_0014    :Rơi tự do
+STR_0015    :Tàu lượn lòng máng
+STR_0016    :Tháp quan sát
+STR_0017    :Tàu lượn lặp
+STR_0018    :Xuồng trượt
+STR_0019    :Tàu lượn xe mỏ
+STR_0020    :Cáp treo
+STR_0021    :Tàu lượn xoắn
+STR_0022    :Mê cung
+STR_0023    :Cầu tuột
+STR_0024    :Đua xe
+STR_0025    :Thuyền vượt thác
+STR_0026    :Sông ghềnh
+STR_0027    :Xe điện đụng
+STR_0028    :Thuyền lắc
+STR_0029    :Thuyền lắc ngược
+STR_0030    :Quầy thức ăn
+STR_0031    :Quầy chưa biết (1D)
+STR_0032    :Quầy nước
+STR_0033    :Quầy chưa biết (1F)
+STR_0034    :Cửa hàng
+STR_0035    :Vòng quay ngựa gỗ
+STR_0036    :Quầy chưa biết (22)
+STR_0037    :Nhà thông tin
+STR_0038    :Nhà vệ sinh
+STR_0039    :Đu quay
+STR_0040    :Thực tế ảo
+STR_0041    :Rạp phim 3D
 STR_0042    :Top Spin
 STR_0043    :Space Rings
-STR_0044    :Reverse Freefall Coaster
+STR_0044    :Tàu lượn rơi ngược
 STR_0045    :Lift
 STR_0046    :Vertical Drop Roller Coaster
-STR_0047    :Cash Machine
+STR_0047    :Máy rút tiền
 STR_0048    :Twist
-STR_0049    :Haunted House
-STR_0050    :First Aid Room
-STR_0051    :Circus
-STR_0052    :Ghost Train
+STR_0049    :Nhà ma
+STR_0050    :Trạm y tế
+STR_0051    :Rạp xiếc
+STR_0052    :Xe lửa ma
 STR_0053    :Twister Roller Coaster
-STR_0054    :Wooden Roller Coaster
+STR_0054    :Tàu lượn siêu tốc gỗ
 STR_0055    :Side-Friction Roller Coaster
-STR_0056    :Steel Wild Mouse
+STR_0056    :Chuộc hoang dã thép
 STR_0057    :Multi-Dimension Roller Coaster
 STR_0058    :Unknown Ride (38)
-STR_0059    :Flying Roller Coaster
+STR_0059    :Tàu lượn siêu tốc bay
 STR_0060    :Unknown Ride (3A)
 STR_0061    :Virginia Reel
 STR_0062    :Splash Boats
-STR_0063    :Mini Helicopters
+STR_0063    :Trực thăng mini
 STR_0064    :Lay-down Roller Coaster
 STR_0065    :Suspended Monorail
 STR_0066    :Unknown Ride (40)
 STR_0067    :Reverser Roller Coaster
 STR_0068    :Heartline Twister Coaster
-STR_0069    :Mini Golf
+STR_0069    :Golf Mini
 STR_0070    :Giga Coaster
 STR_0071    :Roto-Drop
 STR_0072    :Flying Saucers
 STR_0073    :Crooked House
 STR_0074    :Monorail Cycles
 STR_0075    :Compact Inverted Coaster
-STR_0076    :Water Coaster
+STR_0076    :Tàu lượn nước
 STR_0077    :Air Powered Vertical Coaster
 STR_0078    :Inverted Hairpin Coaster
 STR_0079    :Magic Carpet
@@ -177,63 +177,63 @@ STR_0600    :Powered mine trains career along a smooth and twisted track layout
 STR_0602    :Roller coaster trains are accelerated out of the station by linear induction motors to speed through twisting inversions
 STR_0603    :A wooden style roller coaster with a steel track, allowing for steep drops and inversions.
 STR_0604    :Riders ride single file on a narrow monorail track, as they race through tight inversions and direction changes.
-STR_0767    :Guest {INT32}
-STR_0768    :Handyman {INT32}
-STR_0769    :Mechanic {INT32}
-STR_0770    :Security Guard {INT32}
-STR_0771    :Entertainer {INT32}
+STR_0767    :Khách {INT32}
+STR_0768    :Lao công {INT32}
+STR_0769    :Kỹ sư {INT32}
+STR_0770    :Bảo vệ {INT32}
+STR_0771    :Hoạt náo {INT32}
 STR_0777    :Unnamed park{POP16}{POP16}
 STR_0778    :Sign
-STR_0779    :1st
-STR_0780    :2nd
-STR_0781    :3rd
-STR_0782    :4th
-STR_0783    :5th
-STR_0784    :6th
-STR_0785    :7th
-STR_0786    :8th
-STR_0787    :9th
-STR_0788    :10th
-STR_0789    :11th
-STR_0790    :12th
-STR_0791    :13th
-STR_0792    :14th
-STR_0793    :15th
-STR_0794    :16th
-STR_0795    :17th
-STR_0796    :18th
-STR_0797    :19th
-STR_0798    :20th
-STR_0799    :21st
-STR_0800    :22nd
-STR_0801    :23rd
-STR_0802    :24th
-STR_0803    :25th
-STR_0804    :26th
-STR_0805    :27th
-STR_0806    :28th
-STR_0807    :29th
-STR_0808    :30th
-STR_0809    :31st
-STR_0810    :Jan
-STR_0811    :Feb
-STR_0812    :Mar
-STR_0813    :Apr
-STR_0814    :May
-STR_0815    :Jun
-STR_0816    :Jul
-STR_0817    :Aug
-STR_0818    :Sep
-STR_0819    :Oct
-STR_0820    :Nov
-STR_0821    :Dec
-STR_0822    :Unable to access graphic data file
-STR_0823    :Missing or inaccessible data file
+STR_0779    :Ngày 1
+STR_0780    :Ngày 2
+STR_0781    :Ngày 3
+STR_0782    :Ngày 4
+STR_0783    :Ngày 5
+STR_0784    :Ngày 6
+STR_0785    :Ngày 7
+STR_0786    :Ngày 8
+STR_0787    :Ngày 9
+STR_0788    :Ngày 10
+STR_0789    :Ngày 11
+STR_0790    :Ngày 12
+STR_0791    :Ngày 13
+STR_0792    :Ngày 14
+STR_0793    :Ngày 15
+STR_0794    :Ngày 16
+STR_0795    :Ngày 17
+STR_0796    :Ngày 18
+STR_0797    :Ngày 19
+STR_0798    :Ngày 20
+STR_0799    :Ngày 21
+STR_0800    :Ngày 22
+STR_0801    :Ngày 23
+STR_0802    :Ngày 24
+STR_0803    :Ngày 25
+STR_0804    :Ngày 26
+STR_0805    :Ngày 27
+STR_0806    :Ngày 28
+STR_0807    :Ngày 29
+STR_0808    :Ngày 30
+STR_0809    :Ngày 31
+STR_0810    :T1
+STR_0811    :T2
+STR_0812    :T3
+STR_0813    :T4
+STR_0814    :T5
+STR_0815    :T6
+STR_0816    :T7
+STR_0817    :T8
+STR_0818    :T9
+STR_0819    :T10
+STR_0820    :T11
+STR_0821    :T12
+STR_0822    :Không thể truy cập file đồ họa
+STR_0823    :File dữ liệu bị mất hoặc không truy cập được
 STR_0824    :{BLACK}❌
 STR_0825    :Chosen name in use already
 STR_0826    :Too many names defined
-STR_0827    :Not enough cash - requires {CURRENCY2DP}
-STR_0828    :Close window
+STR_0827    :Không đủ tiền - cần {CURRENCY2DP}
+STR_0828    :Đóng cửa sổ
 STR_0829    :Window title - Drag this to move window
 STR_0830    :Zoom view in
 STR_0831    :Zoom view out
@@ -323,14 +323,14 @@ STR_0935    :Ride exit in the way
 STR_0936    :Park entrance in the way
 STR_0937    :View options
 STR_0938    :Adjust land height and slope
-STR_0939    :Underground/Inside View
-STR_0940    :Hide Base Land
-STR_0941    :Hide Vertical Faces
-STR_0942    :See-Through Rides
-STR_0943    :See-Through Scenery
+STR_0939    :Nhìn xuyên
+STR_0940    :Ẩn nền đất
+STR_0941    :Ẩn mặt cắt
+STR_0942    :Nhìn xuyên trò chơi
+STR_0943    :Nhìn xuyên cảnh quan
 STR_0944    :Save
-STR_0945    :Don’t Save
-STR_0946    :Cancel
+STR_0945    :Không save
+STR_0946    :Hủy bỏ
 STR_0947    :Save this before loading?
 STR_0948    :Save this before quitting?
 STR_0949    :Save this before quitting?
@@ -361,13 +361,13 @@ STR_0973    :OK
 STR_0974    :Rides
 STR_0975    :Shops and Stalls
 STR_0976    :Toilets and Information Kiosks
-STR_0977    :New Transport Rides
-STR_0978    :New Gentle Rides
-STR_0979    :New Roller Coasters
-STR_0980    :New Thrill Rides
-STR_0981    :New Water Rides
-STR_0982    :New Shops & Stalls
-STR_0983    :Research & Development
+STR_0977    :Trò chơi vận tải
+STR_0978    :Trò chơi nhẹ nhàng
+STR_0979    :Tàu lượn
+STR_0980    :Trò chơi cảm giác mạnh
+STR_0981    :Trò chơi nước
+STR_0982    :Cửa hàng
+STR_0983    :Nghiên cứu và phát triển
 STR_0984    :{WINDOW_COLOUR_2}▲{BLACK}  {CURRENCY2DP}
 STR_0985    :{WINDOW_COLOUR_2}▼{BLACK}  {CURRENCY2DP}
 STR_0986    :{BLACK}{CURRENCY2DP}
@@ -435,8 +435,8 @@ STR_1047    :Game save failed!
 STR_1048    :Scenario save failed!
 STR_1049    :Landscape save failed!
 STR_1050    :Failed to load…{NEWLINE}File contains invalid data!
-STR_1051    :Invisible Supports
-STR_1052    :Invisible People
+STR_1051    :Ẩn giá đỡ
+STR_1052    :Ẩn người
 STR_1053    :Rides/attractions in park
 STR_1054    :Name ride/attraction
 STR_1055    :Name person
@@ -607,12 +607,12 @@ STR_1219    :{BLACK}-
 STR_1220    :Exit only
 STR_1221    :No entrance
 STR_1222    :No exit
-STR_1223    :Transport rides
-STR_1224    :Gentle rides
-STR_1225    :Roller coasters
-STR_1226    :Thrill rides
-STR_1227    :Water rides
-STR_1228    :Shops & stalls
+STR_1223    :Trò chơi vận tải
+STR_1224    :Trò chơi nhẹ nhàng
+STR_1225    :Tàu lượn
+STR_1226    :Trò chơi cảm giác mạnh
+STR_1227    :Trò chơi nước
+STR_1228    :Cửa hàng
 STR_1229    :train
 STR_1230    :trains
 STR_1231    :Train
@@ -798,14 +798,14 @@ STR_1410    :Vertical Tower
 STR_1411    :{STRINGID} in the way
 STR_1412    :{WINDOW_COLOUR_3}Data logging not available for this type of ride
 STR_1413    :{WINDOW_COLOUR_3}Data logging will start when next {STRINGID} leaves {STRINGID}
-STR_1414    :{BLACK}{DURATION}
+STR_1414    :{SMALLFONT}{BLACK}{DURATION}
 STR_1415    :{WINDOW_COLOUR_2}Velocity
 STR_1416    :{WINDOW_COLOUR_2}Altitude
 STR_1417    :{WINDOW_COLOUR_2}Vert. Gs
 STR_1418    :{WINDOW_COLOUR_2}Lat. Gs
-STR_1419    :{BLACK}{VELOCITY}
-STR_1420    :{BLACK}{LENGTH}
-STR_1421    :{BLACK}{COMMA16}g
+STR_1419    :{SMALLFONT}{BLACK}{VELOCITY}
+STR_1420    :{SMALLFONT}{BLACK}{LENGTH}
+STR_1421    :{SMALLFONT}{BLACK}{COMMA16}g
 STR_1422    :Logging data from {POP16}{STRINGID}
 STR_1423    :Queue line path
 STR_1424    :Footpath
@@ -814,20 +814,20 @@ STR_1426    :Queue Line
 STR_1427    :{WINDOW_COLOUR_2}Customers: {BLACK}{COMMA32} per hour
 STR_1428    :{WINDOW_COLOUR_2}Admission price:
 STR_1429    :{POP16}{POP16}{POP16}{CURRENCY2DP}
-STR_1430    :Free
-STR_1431    :Walking
-STR_1432    :Heading for {STRINGID}
-STR_1433    :Queuing for {STRINGID}
-STR_1434    :Drowning
+STR_1430    :Miễn phí
+STR_1431    :Đang di chuyển
+STR_1432    :Đang đi đến {STRINGID}
+STR_1433    :Đang xếp hàng ở {STRINGID}
+STR_1434    :Đang chìm
 STR_1435    :On {STRINGID}
 STR_1436    :In {STRINGID}
 STR_1437    :At {STRINGID}
 STR_1438    :Sitting
-STR_1439    :(select location)
-STR_1440    :Mowing grass
-STR_1441    :Sweeping footpath
-STR_1442    :Emptying litter bin
-STR_1443    :Watering gardens
+STR_1439    :(chọn vị trí)
+STR_1440    :Đang cắt cỏ
+STR_1441    :Đang quét đường
+STR_1442    :Đang dọn thùng rác
+STR_1443    :Đang tưới hoa
 STR_1444    :Watching {STRINGID}
 STR_1445    :Watching construction of {STRINGID}
 STR_1446    :Looking at scenery
@@ -852,143 +852,143 @@ STR_1464    :Helix up (small)
 STR_1465    :Helix up (large)
 STR_1466    :Helix down (small)
 STR_1467    :Helix down (large)
-STR_1468    :Staff
+STR_1468    :Nhân viên
 STR_1469    :Ride must start and end with stations
 STR_1470    :Station not long enough
 STR_1471    :{WINDOW_COLOUR_2}Speed:
 STR_1472    :Speed of this ride
-STR_1473    :{WINDOW_COLOUR_2}Excitement rating: {BLACK}{COMMA2DP32}  ({STRINGID})
-STR_1474    :{WINDOW_COLOUR_2}Excitement rating: {BLACK}Not yet available
-STR_1475    :{WINDOW_COLOUR_2}Intensity rating: {BLACK}{COMMA2DP32}  ({STRINGID})
-STR_1476    :{WINDOW_COLOUR_2}Intensity rating: {BLACK}Not yet available
-STR_1477    :{WINDOW_COLOUR_2}Intensity rating: {OUTLINE}{RED}{COMMA2DP32}  ({STRINGID})
-STR_1478    :{WINDOW_COLOUR_2}Nausea rating: {BLACK}{COMMA2DP32}  ({STRINGID})
-STR_1479    :{WINDOW_COLOUR_2}Nausea rating: {BLACK}Not yet available
-STR_1480    :“I can’t afford {STRINGID}”
-STR_1481    :“I’ve spent all my money”
-STR_1482    :“I feel sick”
-STR_1483    :“I feel very sick”
-STR_1484    :“I want to go on something more thrilling than {STRINGID}”
-STR_1485    :“{STRINGID} looks too intense for me”
-STR_1486    :“I haven’t finished my {STRINGID} yet”
-STR_1487    :“Just looking at {STRINGID} makes me feel sick”
-STR_1488    :“I’m not paying that much to go on {STRINGID}”
-STR_1489    :“I want to go home”
-STR_1490    :“{STRINGID} is really good value”
-STR_1491    :“I’ve already got {STRINGID}”
-STR_1492    :“I can’t afford {STRINGID}”
-STR_1493    :“I’m not hungry”
-STR_1494    :“I’m not thirsty”
-STR_1495    :“Help! I’m drowning!”
-STR_1496    :“I’m lost!”
-STR_1497    :“{STRINGID} was great”
-STR_1498    :“I’ve been queuing for {STRINGID} for ages”
-STR_1499    :“I’m tired”
-STR_1500    :“I’m hungry”
-STR_1501    :“I’m thirsty”
-STR_1502    :“I need to go to the toilet”
-STR_1503    :“I can’t find {STRINGID}”
-STR_1504    :“I’m not paying that much to use {STRINGID}”
-STR_1505    :“I’m not going on {STRINGID} while it’s raining”
-STR_1506    :“The litter here is really bad”
-STR_1507    :“I can’t find the park exit”
-STR_1508    :“I want to get off {STRINGID}”
-STR_1509    :“I want to get out of {STRINGID}”
-STR_1510    :“I’m not going on {STRINGID} - it isn’t safe”
-STR_1511    :“This path is disgusting”
-STR_1512    :“It’s too crowded here”
-STR_1513    :“The vandalism here is really bad”
-STR_1514    :“Great scenery!”
-STR_1515    :“This park is really clean and tidy”
-STR_1516    :“The jumping fountains are great”
-STR_1517    :“The music is nice here”
-STR_1518    :“This balloon from {STRINGID} is really good value”
-STR_1519    :“This cuddly toy from {STRINGID} is really good value”
-STR_1520    :“This park map from {STRINGID} is really good value”
-STR_1521    :“This on-ride photo from {STRINGID} is really good value”
-STR_1522    :“This umbrella from {STRINGID} is really good value”
-STR_1523    :“This drink from {STRINGID} is really good value”
-STR_1524    :“This burger from {STRINGID} is really good value”
-STR_1525    :“These chips from {STRINGID} are really good value”
-STR_1526    :“This ice cream from {STRINGID} is really good value”
-STR_1527    :“This candyfloss from {STRINGID} is really good value”
+STR_1473    :{WINDOW_COLOUR_2}Độ phấn khích: {BLACK}{COMMA2DP32}  ({STRINGID})
+STR_1474    :{WINDOW_COLOUR_2}Độ phấn khích: {BLACK}Not yet available
+STR_1475    :{WINDOW_COLOUR_2}Cường độ: {BLACK}{COMMA2DP32}  ({STRINGID})
+STR_1476    :{WINDOW_COLOUR_2}Cường độ: {BLACK}Not yet available
+STR_1477    :{WINDOW_COLOUR_2}Cường độ: {OUTLINE}{RED}{COMMA2DP32}  ({STRINGID})
+STR_1478    :{WINDOW_COLOUR_2}Độ buồn nôn: {BLACK}{COMMA2DP32}  ({STRINGID})
+STR_1479    :{WINDOW_COLOUR_2}Độ buồn nôn: {BLACK}Not yet available
+STR_1480    :{SMALLFONT}“Tôi không đủ tiền chơi {STRINGID}”
+STR_1481    :{SMALLFONT}“I’ve spent all my money”
+STR_1482    :{SMALLFONT}“I feel sick”
+STR_1483    :{SMALLFONT}“I feel very sick”
+STR_1484    :{SMALLFONT}“Tôi muốn chơi cái gì đó cảm giác mạnh hơn {STRINGID}”
+STR_1485    :{SMALLFONT}“{STRINGID} looks too intense for me”
+STR_1486    :{SMALLFONT}“I haven’t finished my {STRINGID} yet”
+STR_1487    :{SMALLFONT}“Just looking at {STRINGID} makes me feel sick”
+STR_1488    :{SMALLFONT}“Tôi sẽ không trả nhiều tiền như vậy để chơi {STRINGID}”
+STR_1489    :{SMALLFONT}“I want to go home”
+STR_1490    :{SMALLFONT}“{STRINGID} is really good value”
+STR_1491    :{SMALLFONT}“I’ve already got {STRINGID}”
+STR_1492    :{SMALLFONT}“Tôi không đủ tiền mua {STRINGID}”
+STR_1493    :{SMALLFONT}“I’m not hungry”
+STR_1494    :{SMALLFONT}“I’m not thirsty”
+STR_1495    :{SMALLFONT}“Help! I’m drowning!”
+STR_1496    :{SMALLFONT}“I’m lost!”
+STR_1497    :{SMALLFONT}“{STRINGID} was great”
+STR_1498    :{SMALLFONT}“I’ve been queuing for {STRINGID} for ages”
+STR_1499    :{SMALLFONT}“I’m tired”
+STR_1500    :{SMALLFONT}“I’m hungry”
+STR_1501    :{SMALLFONT}“I’m thirsty”
+STR_1502    :{SMALLFONT}“I need to go to the toilet”
+STR_1503    :{SMALLFONT}“I can’t find {STRINGID}”
+STR_1504    :{SMALLFONT}“I’m not paying that much to use {STRINGID}”
+STR_1505    :{SMALLFONT}“Tôi sẽ không chơi {STRINGID} khi trời mưa”
+STR_1506    :{SMALLFONT}“The litter here is really bad”
+STR_1507    :{SMALLFONT}“I can’t find the park exit”
+STR_1508    :{SMALLFONT}“I want to get off {STRINGID}”
+STR_1509    :{SMALLFONT}“I want to get out of {STRINGID}”
+STR_1510    :{SMALLFONT}“I’m not going on {STRINGID} - it isn’t safe”
+STR_1511    :{SMALLFONT}“This path is disgusting”
+STR_1512    :{SMALLFONT}“It’s too crowded here”
+STR_1513    :{SMALLFONT}“The vandalism here is really bad”
+STR_1514    :{SMALLFONT}“Great scenery!”
+STR_1515    :{SMALLFONT}“This park is really clean and tidy”
+STR_1516    :{SMALLFONT}“The jumping fountains are great”
+STR_1517    :{SMALLFONT}“The music is nice here”
+STR_1518    :{SMALLFONT}“This balloon from {STRINGID} is really good value”
+STR_1519    :{SMALLFONT}“This cuddly toy from {STRINGID} is really good value”
+STR_1520    :{SMALLFONT}“This park map from {STRINGID} is really good value”
+STR_1521    :{SMALLFONT}“This on-ride photo from {STRINGID} is really good value”
+STR_1522    :{SMALLFONT}“This umbrella from {STRINGID} is really good value”
+STR_1523    :{SMALLFONT}“This drink from {STRINGID} is really good value”
+STR_1524    :{SMALLFONT}“This burger from {STRINGID} is really good value”
+STR_1525    :{SMALLFONT}“These chips from {STRINGID} are really good value”
+STR_1526    :{SMALLFONT}“This ice cream from {STRINGID} is really good value”
+STR_1527    :{SMALLFONT}“This candyfloss from {STRINGID} is really good value”
 STR_1528    :
 STR_1529    :
 STR_1530    :
-STR_1531    :“This pizza from {STRINGID} is really good value”
+STR_1531    :{SMALLFONT}“This pizza from {STRINGID} is really good value”
 STR_1532    :
-STR_1533    :“This popcorn from {STRINGID} is really good value”
-STR_1534    :“This hot dog from {STRINGID} is really good value”
-STR_1535    :“This tentacle from {STRINGID} is really good value”
-STR_1536    :“This hat from {STRINGID} is really good value”
-STR_1537    :“This toffee apple from {STRINGID} is really good value”
-STR_1538    :“This T-shirt from {STRINGID} is really good value”
-STR_1539    :“This doughnut from {STRINGID} is really good value”
-STR_1540    :“This coffee from {STRINGID} is really good value”
+STR_1533    :{SMALLFONT}“This popcorn from {STRINGID} is really good value”
+STR_1534    :{SMALLFONT}“This hot dog from {STRINGID} is really good value”
+STR_1535    :{SMALLFONT}“This tentacle from {STRINGID} is really good value”
+STR_1536    :{SMALLFONT}“This hat from {STRINGID} is really good value”
+STR_1537    :{SMALLFONT}“This toffee apple from {STRINGID} is really good value”
+STR_1538    :{SMALLFONT}“This T-shirt from {STRINGID} is really good value”
+STR_1539    :{SMALLFONT}“This doughnut from {STRINGID} is really good value”
+STR_1540    :{SMALLFONT}“This coffee from {STRINGID} is really good value”
 STR_1541    :
-STR_1542    :“This fried chicken from {STRINGID} is really good value”
-STR_1543    :“This lemonade from {STRINGID} is really good value”
+STR_1542    :{SMALLFONT}“This fried chicken from {STRINGID} is really good value”
+STR_1543    :{SMALLFONT}“This lemonade from {STRINGID} is really good value”
 STR_1544    :
 STR_1545    :
 STR_1546    :
 STR_1547    :
 STR_1548    :
 STR_1549    :
-STR_1550    :“Wow!”
-STR_1551    :“I have the strangest feeling someone is watching me”
-STR_1552    :“I’m not paying that much for a balloon from {STRINGID}”
-STR_1553    :“I’m not paying that much for a cuddly toy from {STRINGID}”
-STR_1554    :“I’m not paying that much for a park map from {STRINGID}”
-STR_1555    :“I’m not paying that much for an on-ride photo from {STRINGID}”
-STR_1556    :“I’m not paying that much for an umbrella from {STRINGID}”
-STR_1557    :“I’m not paying that much for a drink from {STRINGID}”
-STR_1558    :“I’m not paying that much for a burger from {STRINGID}”
-STR_1559    :“I’m not paying that much for chips from {STRINGID}”
-STR_1560    :“I’m not paying that much for an ice cream from {STRINGID}”
-STR_1561    :“I’m not paying that much for candyfloss from {STRINGID}”
+STR_1550    :{SMALLFONT}“Wow!”
+STR_1551    :{SMALLFONT}“I have the strangest feeling someone is watching me”
+STR_1552    :{SMALLFONT}“I’m not paying that much for a balloon from {STRINGID}”
+STR_1553    :{SMALLFONT}“I’m not paying that much for a cuddly toy from {STRINGID}”
+STR_1554    :{SMALLFONT}“I’m not paying that much for a park map from {STRINGID}”
+STR_1555    :{SMALLFONT}“I’m not paying that much for an on-ride photo from {STRINGID}”
+STR_1556    :{SMALLFONT}“I’m not paying that much for an umbrella from {STRINGID}”
+STR_1557    :{SMALLFONT}“I’m not paying that much for a drink from {STRINGID}”
+STR_1558    :{SMALLFONT}“I’m not paying that much for a burger from {STRINGID}”
+STR_1559    :{SMALLFONT}“I’m not paying that much for chips from {STRINGID}”
+STR_1560    :{SMALLFONT}“I’m not paying that much for an ice cream from {STRINGID}”
+STR_1561    :{SMALLFONT}“I’m not paying that much for candyfloss from {STRINGID}”
 STR_1562    :
 STR_1563    :
 STR_1564    :
-STR_1565    :“I’m not paying that much for pizza from {STRINGID}”
+STR_1565    :{SMALLFONT}“I’m not paying that much for pizza from {STRINGID}”
 STR_1566    :
-STR_1567    :“I’m not paying that much for popcorn from {STRINGID}”
-STR_1568    :“I’m not paying that much for a hot dog from {STRINGID}”
-STR_1569    :“I’m not paying that much for tentacle from {STRINGID}”
-STR_1570    :“I’m not paying that much for a hat from {STRINGID}”
-STR_1571    :“I’m not paying that much for a toffee apple from {STRINGID}”
-STR_1572    :“I’m not paying that much for a T-shirt from {STRINGID}”
-STR_1573    :“I’m not paying that much for a doughnut from {STRINGID}”
-STR_1574    :“I’m not paying that much for coffee from {STRINGID}”
+STR_1567    :{SMALLFONT}“I’m not paying that much for popcorn from {STRINGID}”
+STR_1568    :{SMALLFONT}“I’m not paying that much for a hot dog from {STRINGID}”
+STR_1569    :{SMALLFONT}“I’m not paying that much for tentacle from {STRINGID}”
+STR_1570    :{SMALLFONT}“I’m not paying that much for a hat from {STRINGID}”
+STR_1571    :{SMALLFONT}“I’m not paying that much for a toffee apple from {STRINGID}”
+STR_1572    :{SMALLFONT}“I’m not paying that much for a T-shirt from {STRINGID}”
+STR_1573    :{SMALLFONT}“I’m not paying that much for a doughnut from {STRINGID}”
+STR_1574    :{SMALLFONT}“I’m not paying that much for coffee from {STRINGID}”
 STR_1575    :
-STR_1576    :“I’m not paying that much for fried chicken from {STRINGID}”
-STR_1577    :“I’m not paying that much for lemonade from {STRINGID}”
+STR_1576    :{SMALLFONT}“I’m not paying that much for fried chicken from {STRINGID}”
+STR_1577    :{SMALLFONT}“I’m not paying that much for lemonade from {STRINGID}”
 STR_1578    :
 STR_1579    :
 STR_1580    :
 STR_1581    :
 STR_1582    :
 STR_1583    :
-STR_1584    :“This on-ride photo from {STRINGID} is really good value”
-STR_1585    :“This on-ride photo from {STRINGID} is really good value”
-STR_1586    :“This on-ride photo from {STRINGID} is really good value”
-STR_1587    :“This pretzel from {STRINGID} is really good value”
-STR_1588    :“This hot chocolate from {STRINGID} is really good value”
-STR_1589    :“This iced tea from {STRINGID} is really good value”
-STR_1590    :“This funnel cake from {STRINGID} is really good value”
-STR_1591    :“These sunglasses from {STRINGID} are really good value”
-STR_1592    :“These beef noodles from {STRINGID} are really good value”
-STR_1593    :“These fried rice noodles from {STRINGID} are really good value”
-STR_1594    :“This wonton soup from {STRINGID} is really good value”
-STR_1595    :“This meatball soup from {STRINGID} is really good value”
-STR_1596    :“This fruit juice from {STRINGID} is really good value”
-STR_1597    :“This soybean milk from {STRINGID} is really good value”
-STR_1598    :“This sujeonggwa from {STRINGID} is really good value”
-STR_1599    :“This sub sandwich from {STRINGID} is really good value”
-STR_1600    :“This cookie from {STRINGID} is really good value”
+STR_1584    :{SMALLFONT}“This on-ride photo from {STRINGID} is really good value”
+STR_1585    :{SMALLFONT}“This on-ride photo from {STRINGID} is really good value”
+STR_1586    :{SMALLFONT}“This on-ride photo from {STRINGID} is really good value”
+STR_1587    :{SMALLFONT}“This pretzel from {STRINGID} is really good value”
+STR_1588    :{SMALLFONT}“This hot chocolate from {STRINGID} is really good value”
+STR_1589    :{SMALLFONT}“This iced tea from {STRINGID} is really good value”
+STR_1590    :{SMALLFONT}“This funnel cake from {STRINGID} is really good value”
+STR_1591    :{SMALLFONT}“These sunglasses from {STRINGID} are really good value”
+STR_1592    :{SMALLFONT}“These beef noodles from {STRINGID} are really good value”
+STR_1593    :{SMALLFONT}“These fried rice noodles from {STRINGID} are really good value”
+STR_1594    :{SMALLFONT}“This wonton soup from {STRINGID} is really good value”
+STR_1595    :{SMALLFONT}“This meatball soup from {STRINGID} is really good value”
+STR_1596    :{SMALLFONT}“This fruit juice from {STRINGID} is really good value”
+STR_1597    :{SMALLFONT}“This soybean milk from {STRINGID} is really good value”
+STR_1598    :{SMALLFONT}“This sujeonggwa from {STRINGID} is really good value”
+STR_1599    :{SMALLFONT}“This sub sandwich from {STRINGID} is really good value”
+STR_1600    :{SMALLFONT}“This cookie from {STRINGID} is really good value”
 STR_1601    :
 STR_1602    :
 STR_1603    :
-STR_1604    :“This roast sausage from {STRINGID} is really good value”
+STR_1604    :{SMALLFONT}“This roast sausage from {STRINGID} is really good value”
 STR_1605    :
 STR_1606    :
 STR_1607    :
@@ -1000,27 +1000,27 @@ STR_1612    :
 STR_1613    :
 STR_1614    :
 STR_1615    :
-STR_1616    :“I’m not paying that much for an on-ride photo from {STRINGID}”
-STR_1617    :“I’m not paying that much for an on-ride photo from {STRINGID}”
-STR_1618    :“I’m not paying that much for an on-ride photo from {STRINGID}”
-STR_1619    :“I’m not paying that much for a pretzel from {STRINGID}”
-STR_1620    :“I’m not paying that much for hot chocolate from {STRINGID}”
-STR_1621    :“I’m not paying that much for iced tea from {STRINGID}”
-STR_1622    :“I’m not paying that much for a funnel cake from {STRINGID}”
-STR_1623    :“I’m not paying that much for sunglasses from {STRINGID}”
-STR_1624    :“I’m not paying that much for beef noodles from {STRINGID}”
-STR_1625    :“I’m not paying that much for fried rice noodles from {STRINGID}”
-STR_1626    :“I’m not paying that much for wonton soup from {STRINGID}”
-STR_1627    :“I’m not paying that much for meatball soup from {STRINGID}”
-STR_1628    :“I’m not paying that much for fruit juice from {STRINGID}”
-STR_1629    :“I’m not paying that much for soybean milk from {STRINGID}”
-STR_1630    :“I’m not paying that much for sujeonggwa from {STRINGID}”
-STR_1631    :“I’m not paying that much for a sub sandwich from {STRINGID}”
-STR_1632    :“I’m not paying that much for a cookie from {STRINGID}”
+STR_1616    :{SMALLFONT}“I’m not paying that much for an on-ride photo from {STRINGID}”
+STR_1617    :{SMALLFONT}“I’m not paying that much for an on-ride photo from {STRINGID}”
+STR_1618    :{SMALLFONT}“I’m not paying that much for an on-ride photo from {STRINGID}”
+STR_1619    :{SMALLFONT}“I’m not paying that much for a pretzel from {STRINGID}”
+STR_1620    :{SMALLFONT}“I’m not paying that much for hot chocolate from {STRINGID}”
+STR_1621    :{SMALLFONT}“I’m not paying that much for iced tea from {STRINGID}”
+STR_1622    :{SMALLFONT}“I’m not paying that much for a funnel cake from {STRINGID}”
+STR_1623    :{SMALLFONT}“I’m not paying that much for sunglasses from {STRINGID}”
+STR_1624    :{SMALLFONT}“I’m not paying that much for beef noodles from {STRINGID}”
+STR_1625    :{SMALLFONT}“I’m not paying that much for fried rice noodles from {STRINGID}”
+STR_1626    :{SMALLFONT}“I’m not paying that much for wonton soup from {STRINGID}”
+STR_1627    :{SMALLFONT}“I’m not paying that much for meatball soup from {STRINGID}”
+STR_1628    :{SMALLFONT}“I’m not paying that much for fruit juice from {STRINGID}”
+STR_1629    :{SMALLFONT}“I’m not paying that much for soybean milk from {STRINGID}”
+STR_1630    :{SMALLFONT}“I’m not paying that much for sujeonggwa from {STRINGID}”
+STR_1631    :{SMALLFONT}“I’m not paying that much for a sub sandwich from {STRINGID}”
+STR_1632    :{SMALLFONT}“I’m not paying that much for a cookie from {STRINGID}”
 STR_1633    :
 STR_1634    :
 STR_1635    :
-STR_1636    :“I’m not paying that much for a roast sausage from {STRINGID}”
+STR_1636    :{SMALLFONT}“I’m not paying that much for a roast sausage from {STRINGID}”
 STR_1637    :
 STR_1638    :
 STR_1639    :
@@ -1032,10 +1032,10 @@ STR_1644    :
 STR_1645    :
 STR_1646    :
 STR_1647    :
-STR_1648    :“Help! Put me down!”
-STR_1649    :“I’m running out of cash!”
-STR_1650    :“Wow! A new ride being built!”
-STR_1653    :“…and here we are on {STRINGID}!”
+STR_1648    :{SMALLFONT}“Help! Put me down!”
+STR_1649    :{SMALLFONT}“I’m running out of cash!”
+STR_1650    :{SMALLFONT}“Wow! A new ride being built!”
+STR_1653    :{SMALLFONT}“…and here we are on {STRINGID}!”
 STR_1654    :{WINDOW_COLOUR_2}Recent thoughts:
 STR_1655    :Construct footpath on land
 STR_1656    :Construct bridge or tunnel footpath
@@ -1076,28 +1076,28 @@ STR_1690    :{WINDOW_COLOUR_2}{STRINGID}{NEWLINE}{BLACK}{STRINGID}
 STR_1691    :{WINDOW_COLOUR_2}  Cost: {BLACK}{CURRENCY}
 STR_1692    :{WINDOW_COLOUR_2}  Cost: {BLACK}from {CURRENCY}
 STR_1693    :Guests
-STR_1694    :Staff
+STR_1694    :Nhân viên
 STR_1695    :Income and costs
 STR_1696    :Customer information
 STR_1697    :Cannot place these on queue line area
 STR_1698    :Can only place these on queue area
 STR_1699    :Too many people in game
-STR_1700    :Hire new Handyman
-STR_1701    :Hire new Mechanic
-STR_1702    :Hire new Security Guard
-STR_1703    :Hire new Entertainer
-STR_1704    :Can’t hire new staff…
-STR_1705    :Sack this staff member
-STR_1706    :Move this person to a new location
-STR_1707    :Too many staff in game
-STR_1708    :Set patrol area for this staff member
-STR_1709    :Sack staff
-STR_1710    :Yes
-STR_1711    :{WINDOW_COLOUR_1}Are you sure you want to sack {STRINGID}?
-STR_1712    :{INLINE_SPRITE}{247}{19}{00}{00}{WINDOW_COLOUR_2}Sweep footpaths
-STR_1713    :{INLINE_SPRITE}{248}{19}{00}{00}{WINDOW_COLOUR_2}Water gardens
-STR_1714    :{INLINE_SPRITE}{249}{19}{00}{00}{WINDOW_COLOUR_2}Empty litter bins
-STR_1715    :{INLINE_SPRITE}{250}{19}{00}{00}{WINDOW_COLOUR_2}Mow grass
+STR_1700    :Thuê thêm lao công
+STR_1701    :Thuê thêm kỹ sư
+STR_1702    :Thuê thêm bảo vệ
+STR_1703    :Thuê thêm hoạt náo
+STR_1704    :Không thể thuê thêm nhân viên...
+STR_1705    :Sa thải nhân viên này
+STR_1706    :Di chuyển người này
+STR_1707    :Có quá nhiều nhân viên
+STR_1708    :Quy định vùng di chuyển của nhân viên
+STR_1709    :Sa thải nhân viên
+STR_1710    :Đúng
+STR_1711    :{WINDOW_COLOUR_1}Bạn có chắc muốn sa thải {STRINGID}?
+STR_1712    :{INLINE_SPRITE}{247}{19}{00}{00}{WINDOW_COLOUR_2}Quét đường
+STR_1713    :{INLINE_SPRITE}{248}{19}{00}{00}{WINDOW_COLOUR_2}Tước hoa
+STR_1714    :{INLINE_SPRITE}{249}{19}{00}{00}{WINDOW_COLOUR_2}Dọn thùng rác
+STR_1715    :{INLINE_SPRITE}{250}{19}{00}{00}{WINDOW_COLOUR_2}Cắt cỏ
 STR_1716    :Invalid name for park
 STR_1717    :Can’t rename park…
 STR_1718    :Park Name
@@ -1133,8 +1133,8 @@ STR_1749    :{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{DUR
 STR_1751    :Can’t change time limit for ride…
 STR_1752    :Show list of individual guests in park
 STR_1753    :Show summarised list of guests in park
-STR_1754    :{BLACK}{COMMA32} guests
-STR_1755    :{BLACK}{COMMA32} guest
+STR_1754    :{BLACK}{COMMA32} khách
+STR_1755    :{BLACK}{COMMA32} khách
 STR_1756    :{WINDOW_COLOUR_2}Admission price:
 STR_1757    :{WINDOW_COLOUR_2}Reliability: {MOVE_X}{255}{BLACK}{COMMA16}%
 STR_1758    :Build mode
@@ -1168,11 +1168,11 @@ STR_1788    :{INLINE_SPRITE}{07}{20}{00}{00} Sheriff costume
 STR_1789    :{INLINE_SPRITE}{08}{20}{00}{00} Pirate costume
 STR_1790    :Select uniform colour for this type of staff
 STR_1791    :{WINDOW_COLOUR_2}Uniform colour:
-STR_1792    :Responding to {STRINGID} breakdown call
-STR_1793    :Heading to {STRINGID} for an inspection
-STR_1794    :Fixing {STRINGID}
-STR_1795    :Answering radio call
-STR_1796    :Has broken down and requires fixing
+STR_1792    :Đang trả lời cuộc gọi vì {STRINGID} bị hỏng
+STR_1793    :Đang đi đến {STRINGID} để kiểm tra
+STR_1794    :Đang sửa {STRINGID}
+STR_1795    :Đang trả lời bộ đàm
+STR_1796    :Đã bị hỏng và cần được sửa chữa
 STR_1798    :Whirlpool
 STR_1799    :{POP16}{POP16}{POP16}{POP16}{POP16}{CURRENCY2DP}
 STR_1800    :Safety cut-out
@@ -1187,7 +1187,7 @@ STR_1808    :{WINDOW_COLOUR_2}Last breakdown: {BLACK}{STRINGID}
 STR_1809    :{WINDOW_COLOUR_2}Current breakdown: {OUTLINE}{RED}{STRINGID}
 STR_1810    :{WINDOW_COLOUR_2}Carrying:
 STR_1811    :Can’t build this here…
-STR_1812    :{BLACK}{STRINGID}
+STR_1812    :{SMALLFONT}{BLACK}{STRINGID}
 STR_1813    :Miscellaneous Objects
 STR_1814    :Actions
 STR_1815    :Thoughts
@@ -1196,7 +1196,7 @@ STR_1817    :({COMMA32})
 STR_1818    :{WINDOW_COLOUR_2}All guests
 STR_1819    :{WINDOW_COLOUR_2}All guests (summarised)
 STR_1820    :{WINDOW_COLOUR_2}Guests {STRINGID}
-STR_1821    :{WINDOW_COLOUR_2}Guests thinking {SMALLFONT}{STRINGID}
+STR_1821    :{WINDOW_COLOUR_2}Guests thinking {STRINGID}
 STR_1822    :{WINDOW_COLOUR_2}Guests thinking about {POP16}{STRINGID}
 STR_1823    :Show guests’ thoughts about this ride/attraction
 STR_1824    :Show guests on this ride/attraction
@@ -1221,7 +1221,7 @@ STR_1842    :Favourite of: {COMMA16} guest
 STR_1843    :Favourite of: {COMMA16} guests
 STR_1844    :Select information type to show in ride/attraction list
 STR_1845    :{MONTHYEAR}
-STR_1846    :{COMMA32} guests
+STR_1846    :{COMMA32} khách
 STR_1847    :{INLINE_SPRITE}{11}{20}{00}{00}{COMMA32} guests
 STR_1848    :{INLINE_SPRITE}{10}{20}{00}{00}{COMMA32} guests
 STR_1849    :{WINDOW_COLOUR_2}Play music
@@ -1233,7 +1233,7 @@ STR_1854    :{WINDOW_COLOUR_2}Built: {BLACK}Last Year
 STR_1855    :{WINDOW_COLOUR_2}Built: {BLACK}{COMMA16} Years Ago
 STR_1856    :{WINDOW_COLOUR_2}Profit per item sold: {BLACK}{CURRENCY2DP}
 STR_1857    :{WINDOW_COLOUR_2}Loss per item sold: {BLACK}{CURRENCY2DP}
-STR_1858    :{WINDOW_COLOUR_2}Cost: {BLACK}{CURRENCY2DP} per month
+STR_1858    :{WINDOW_COLOUR_2}Tốn: {BLACK}{CURRENCY2DP} mỗi tháng
 STR_1859    :Handymen
 STR_1860    :Mechanics
 STR_1861    :Security Guards
@@ -1260,7 +1260,7 @@ STR_1882    :Every 45 minutes
 STR_1883    :Every hour
 STR_1884    :Every 2 hours
 STR_1885    :Never
-STR_1886    :Inspecting {STRINGID}
+STR_1886    :Đang kiểm tra {STRINGID}
 STR_1887    :{WINDOW_COLOUR_2}Time since last inspection: {BLACK}{COMMA16} minutes
 STR_1888    :{WINDOW_COLOUR_2}Time since last inspection: {BLACK}more than 4 hours
 STR_1889    :{WINDOW_COLOUR_2}Down-Time: {MOVE_X}{255}{BLACK}{COMMA16}%
@@ -1268,38 +1268,39 @@ STR_1890    :Select how often a mechanic should check this ride
 STR_1891    :No {STRINGID} in park yet!
 STR_1894    :{WINDOW_COLOUR_2}{STRINGID} sold: {BLACK}{COMMA32}
 STR_1895    :Build new ride/attraction
-STR_1896    :{WINDOW_COLOUR_2}Expenditure/Income
-STR_1897    :{WINDOW_COLOUR_2}Ride construction
-STR_1898    :{WINDOW_COLOUR_2}Ride running costs
-STR_1899    :{WINDOW_COLOUR_2}Land purchase
-STR_1900    :{WINDOW_COLOUR_2}Landscaping
-STR_1901    :{WINDOW_COLOUR_2}Park entrance tickets
-STR_1902    :{WINDOW_COLOUR_2}Ride tickets
-STR_1903    :{WINDOW_COLOUR_2}Shop sales
-STR_1904    :{WINDOW_COLOUR_2}Shop stock
-STR_1905    :{WINDOW_COLOUR_2}Food/drink sales
-STR_1906    :{WINDOW_COLOUR_2}Food/drink stock
-STR_1907    :{WINDOW_COLOUR_2}Staff wages
-STR_1908    :{WINDOW_COLOUR_2}Marketing
-STR_1909    :{WINDOW_COLOUR_2}Research
-STR_1910    :{WINDOW_COLOUR_2}Loan interest
-STR_1911    :{BLACK} at {COMMA16}% per year
+STR_1896    :{WINDOW_COLOUR_2}Khoản thu/chi
+STR_1897    :{WINDOW_COLOUR_2}Xây dựng
+STR_1898    :{WINDOW_COLOUR_2}Phí vận hành trò chơi
+STR_1899    :{WINDOW_COLOUR_2}Mua đất
+STR_1900    :{WINDOW_COLOUR_2}Cảnh quan
+STR_1901    :{WINDOW_COLOUR_2}Vé vào cổng
+STR_1902    :{WINDOW_COLOUR_2}Vé trò chơi
+STR_1903    :{WINDOW_COLOUR_2}Bán đồ
+STR_1904    :{WINDOW_COLOUR_2}Nhập hàng
+STR_1905    :{WINDOW_COLOUR_2}Bán đồ ăn/uống
+STR_1906    :{WINDOW_COLOUR_2}Mua đồ ăn/uống
+STR_1907    :{WINDOW_COLOUR_2}Lương nhân viên
+STR_1908    :{WINDOW_COLOUR_2}Quảng cáo
+STR_1909    :{WINDOW_COLOUR_2}Nghiên cứu
+STR_1910    :{WINDOW_COLOUR_2}Lãi ngân hàng
+STR_1911    :{BLACK} lãi {COMMA16}% một năm
 STR_1912    :{MONTH}
 STR_1913    :{BLACK}+{CURRENCY2DP}
 STR_1914    :{BLACK}{CURRENCY2DP}
 STR_1915    :{RED}{CURRENCY2DP}
-STR_1916    :{WINDOW_COLOUR_2}Loan:
+STR_1916    :{WINDOW_COLOUR_2}Nợ:
 STR_1917    :{POP16}{POP16}{POP16}{CURRENCY}
-STR_1918    :Can’t borrow any more money!
-STR_1919    :Not enough cash available!
-STR_1920    :Can’t pay back loan!
+STR_1918    :Không thể vay thêm tiền!
+STR_1919    :Không đủ tiền!
+STR_1920    :Không thể trả nợ!
 STR_1921    :Start a new game
 STR_1922    :Continue playing a saved game
 STR_1924    :Exit
 STR_1925    :Can’t place person here…
-STR_1927    :{YELLOW}{STRINGID} has broken down
+STR_1926    :{SMALLFONT}
+STR_1927    :{YELLOW}{STRINGID} đã hỏng
 STR_1928    :{RED}{STRINGID} has crashed!
-STR_1929    :{RED}{STRINGID} still hasn’t been fixed{NEWLINE}Check where your mechanics are and consider organizing them better
+STR_1929    :{RED}{STRINGID} vẫn chưa được sửa{NEWLINE}Hãy kiểm tra những kỹ sư đang ở đâu và nên sắp xếp họ tốt hơn
 STR_1930    :Turn on/off tracking information for this guest - (If tracking is on, guest’s movements will be reported in the message area)
 STR_1931    :{STRINGID} has joined the queue line for {STRINGID}
 STR_1932    :{STRINGID} is on {STRINGID}
@@ -1319,12 +1320,12 @@ STR_1945    :Show orders and options for this staff member
 STR_1946    :Select costume for this entertainer
 STR_1947    :Show areas patrolled by selected staff type, and locate the nearest staff member
 STR_1948    :Hire a new staff member of the selected type
-STR_1949    :Financial Summary
-STR_1950    :Financial Graph
-STR_1951    :Park Value Graph
-STR_1952    :Profit Graph
-STR_1953    :Marketing
-STR_1954    :Research Funding
+STR_1949    :Tổng hợp tài chính
+STR_1950    :Biểu đồ tài chính
+STR_1951    :Biểu đồ giá trị công viên
+STR_1952    :Biểu đồ lợi nhuận
+STR_1953    :Quảng cáo
+STR_1954    :Quỹ nghiên cứu
 STR_1955    :{WINDOW_COLOUR_2}Number of circuits:
 STR_1956    :Number of circuits of track per ride
 STR_1957    :{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{POP16}{COMMA16}
@@ -1577,73 +1578,73 @@ STR_2218    :{RED}{STRINGID} on {STRINGID} hasn’t returned to the {STRINGID} y
 STR_2219    :{RED}{COMMA16} people have died in an accident on {STRINGID}
 STR_2220    :{WINDOW_COLOUR_2}Park Rating: {BLACK}{COMMA16}
 STR_2221    :Park Rating: {COMMA16}
-STR_2222    :{BLACK}{STRINGID}
+STR_2222    :{SMALLFONT}{BLACK}{STRINGID}
 STR_2223    :{WINDOW_COLOUR_2}Guests in park: {BLACK}{COMMA32}
-STR_2224    :{WINDOW_COLOUR_2}Cash: {BLACK}{CURRENCY2DP}
-STR_2225    :{WINDOW_COLOUR_2}Cash: {RED}{CURRENCY2DP}
-STR_2226    :{WINDOW_COLOUR_2}Park value: {BLACK}{CURRENCY}
-STR_2227    :{WINDOW_COLOUR_2}Company value: {BLACK}{CURRENCY}
-STR_2228    :{WINDOW_COLOUR_2}Last month’s profit from food/drink and{NEWLINE}merchandise sales: {BLACK}{CURRENCY}
+STR_2224    :{WINDOW_COLOUR_2}Tiền hiện có: {BLACK}{CURRENCY2DP}
+STR_2225    :{WINDOW_COLOUR_2}Tiền: {RED}{CURRENCY2DP}
+STR_2226    :{WINDOW_COLOUR_2}Giá trị công viên: {BLACK}{CURRENCY}
+STR_2227    :{WINDOW_COLOUR_2}Giá trị công ty: {BLACK}{CURRENCY}
+STR_2228    :{WINDOW_COLOUR_2}Tiền lời tháng vừa rồi từ việc bán đồ ăn uống và{NEWLINE}hàng hóa: {BLACK}{CURRENCY}
 STR_2229    :Slope up to vertical
 STR_2230    :Vertical track
 STR_2231    :Holding brake for drop
 STR_2232    :Cable lift hill
 STR_2233    :Park information
 STR_2234    :Recent Messages
-STR_2235    :{STRINGID} {STRINGID}
-STR_2236    :January
-STR_2237    :February
-STR_2238    :March
-STR_2239    :April
-STR_2240    :May
-STR_2241    :June
-STR_2242    :July
-STR_2243    :August
-STR_2244    :September
-STR_2245    :October
-STR_2246    :November
-STR_2247    :December
+STR_2235    :{SMALLFONT}{STRINGID} {STRINGID}
+STR_2236    :Tháng 1
+STR_2237    :Tháng 2
+STR_2238    :Tháng 3
+STR_2239    :Tháng 4
+STR_2240    :Tháng 5
+STR_2241    :Tháng 6
+STR_2242    :Tháng 7
+STR_2243    :Tháng 8
+STR_2244    :Tháng 9
+STR_2245    :Tháng 10
+STR_2246    :Tháng 11
+STR_2247    :Tháng 12
 STR_2248    :Can’t demolish ride/attraction…
 STR_2249    :{BABYBLUE}New ride/attraction now available:{NEWLINE}{STRINGID}
 STR_2250    :{BABYBLUE}New scenery/theming now available:{NEWLINE}{STRINGID}
 STR_2251    :Can only be built on paths!
 STR_2252    :Can only be built across paths!
-STR_2253    :Transport Rides
-STR_2254    :Gentle Rides
-STR_2255    :Roller Coasters
-STR_2256    :Thrill Rides
-STR_2257    :Water Rides
-STR_2258    :Shops & Stalls
-STR_2259    :Scenery & Theming
-STR_2260    :No funding
-STR_2261    :Minimum funding
-STR_2262    :Normal funding
-STR_2263    :Maximum funding
-STR_2264    :Research funding
-STR_2265    :{WINDOW_COLOUR_2}Cost: {BLACK}{CURRENCY} per month
-STR_2266    :Research priorities
-STR_2267    :Currently in development
-STR_2268    :Last development
-STR_2269    :{WINDOW_COLOUR_2}Type: {BLACK}{STRINGID}
-STR_2270    :{WINDOW_COLOUR_2}Progress: {BLACK}{STRINGID}
-STR_2271    :{WINDOW_COLOUR_2}Expected: {BLACK}{STRINGID}
-STR_2272    :{WINDOW_COLOUR_2}Ride/attraction:{NEWLINE}{BLACK}{STRINGID}
-STR_2273    :{WINDOW_COLOUR_2}Scenery/theming:{NEWLINE}{BLACK}{STRINGID}
+STR_2253    :Trò chơi vận tải
+STR_2254    :Trò chơi nhẹ nhàng
+STR_2255    :Tàu lượn
+STR_2256    :Trò chơi cảm giác mạnh
+STR_2257    :Trò chơi nước
+STR_2258    :Cửa hàng
+STR_2259    :Cảnh quan
+STR_2260    :Không nghiên cứu
+STR_2261    :Ít tiền
+STR_2262    :Trung bình
+STR_2263    :Tối đa
+STR_2264    :Quỹ nghiên cứu
+STR_2265    :{WINDOW_COLOUR_2}Tốn: {BLACK}{CURRENCY} mỗi tháng
+STR_2266    :Ưu tiên nghiên cứu
+STR_2267    :Hiện đang nghiên cứu
+STR_2268    :Nghiên cứu mới nhất
+STR_2269    :{WINDOW_COLOUR_2}Loại: {BLACK}{STRINGID}
+STR_2270    :{WINDOW_COLOUR_2}Quá trình: {BLACK}{STRINGID}
+STR_2271    :{WINDOW_COLOUR_2}Dự kiến: {BLACK}{STRINGID}
+STR_2272    :{WINDOW_COLOUR_2}Trò chơi:{NEWLINE}{BLACK}{STRINGID}
+STR_2273    :{WINDOW_COLOUR_2}Cảnh quan:{NEWLINE}{BLACK}{STRINGID}
 STR_2274    :Show details of this invention or development
 STR_2275    :Show funding and options for research & development
 STR_2276    :Show research & development status
 STR_2277    :Unknown
-STR_2278    :Transport Ride
-STR_2279    :Gentle Ride
-STR_2280    :Roller Coaster
-STR_2281    :Thrill Ride
-STR_2282    :Water Ride
-STR_2283    :Shop/Stall
-STR_2284    :Scenery/Theming
-STR_2285    :Initial research
-STR_2286    :Designing
-STR_2287    :Completing design
-STR_2288    :Unknown
+STR_2278    :Trò chơi vận tải
+STR_2279    :Trò chơi nhẹ nhàng
+STR_2280    :Tàu lượn siêu tốc
+STR_2281    :Trò chơi cảm giác mạnh
+STR_2282    :Trò chơi nước
+STR_2283    :Cửa hàng
+STR_2284    :Cảnh quang
+STR_2285    :Nghiên cứu ban đầu
+STR_2286    :Thiết kế
+STR_2287    :Đang hoàn thiện
+STR_2288    :Chưa biết
 STR_2289    :{STRINGID} {STRINGID}
 STR_2291    :Select scenario for new game
 STR_2292    :{WINDOW_COLOUR_2}Rides been on:
@@ -1665,14 +1666,14 @@ STR_2307    :Select {STRINGID} design
 STR_2308    :{STRINGID} Track Designs
 STR_2309    :Install New Track Design
 STR_2310    :Build custom design
-STR_2311    :{WINDOW_COLOUR_2}Excitement rating: {BLACK}{COMMA2DP32} (approx.)
-STR_2312    :{WINDOW_COLOUR_2}Intensity rating: {BLACK}{COMMA2DP32} (approx.)
-STR_2313    :{WINDOW_COLOUR_2}Nausea rating: {BLACK}{COMMA2DP32} (approx.)
-STR_2314    :{WINDOW_COLOUR_2}Ride length: {BLACK}{STRINGID}
-STR_2315    :{WINDOW_COLOUR_2}Cost: {BLACK}around {CURRENCY}
-STR_2316    :{WINDOW_COLOUR_2}Space required: {BLACK}{COMMA16} x {COMMA16} blocks
+STR_2311    :{WINDOW_COLOUR_2}Độ phấn khích: {BLACK}{COMMA2DP32} (approx.)
+STR_2312    :{WINDOW_COLOUR_2}Cường độ: {BLACK}{COMMA2DP32} (approx.)
+STR_2313    :{WINDOW_COLOUR_2}Độ buồn nôn: {BLACK}{COMMA2DP32} (approx.)
+STR_2314    :{WINDOW_COLOUR_2}Độ dài: {BLACK}{STRINGID}
+STR_2315    :{WINDOW_COLOUR_2}Tốn: {BLACK}around {CURRENCY}
+STR_2316    :{WINDOW_COLOUR_2}Diện tích: {BLACK}{COMMA16} x {COMMA16} blocks
 STR_2321    :{WINDOW_COLOUR_2}Number of rides/attractions: {BLACK}{COMMA16}
-STR_2322    :{WINDOW_COLOUR_2}Staff: {BLACK}{COMMA16}
+STR_2322    :{WINDOW_COLOUR_2}Nhân viên: {BLACK}{COMMA16}
 STR_2323    :{WINDOW_COLOUR_2}Park size: {BLACK}{COMMA32}m²
 STR_2324    :{WINDOW_COLOUR_2}Park size: {BLACK}{COMMA32}sq.ft.
 STR_2325    :Buy land to extend park
@@ -1698,8 +1699,8 @@ STR_2344    :Imperial
 STR_2345    :Metric
 STR_2347    :{RED}{STRINGID} has drowned!
 STR_2348    :Show statistics for this staff member
-STR_2349    :{WINDOW_COLOUR_2}Wages: {BLACK}{CURRENCY} per month
-STR_2350    :{WINDOW_COLOUR_2}Employed: {BLACK}{MONTHYEAR}
+STR_2349    :{WINDOW_COLOUR_2}Lương: {BLACK}{CURRENCY} mỗi tháng
+STR_2350    :{WINDOW_COLOUR_2}Được thuê: {BLACK}{MONTHYEAR}
 STR_2351    :{WINDOW_COLOUR_2}Lawns mown: {BLACK}{COMMA16}
 STR_2352    :{WINDOW_COLOUR_2}Gardens watered: {BLACK}{COMMA16}
 STR_2353    :{WINDOW_COLOUR_2}Litter swept: {BLACK}{COMMA16}
@@ -1732,20 +1733,20 @@ STR_2380    :Adjust smaller area of water
 STR_2381    :Adjust larger area of water
 STR_2382    :Land
 STR_2383    :Water
-STR_2384    :{WINDOW_COLOUR_2}Your objective:
-STR_2385    :{BLACK}None
-STR_2386    :{BLACK}To have at least {COMMA16} guests in your park at the end of {MONTHYEAR}, with a park rating of at least 600
-STR_2387    :{BLACK}To achieve a park value of at least {POP16}{POP16}{CURRENCY} at the end of {PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}
+STR_2384    :{WINDOW_COLOUR_2}Mục tiêu:
+STR_2385    :{BLACK}Không
+STR_2386    :{BLACK}Có ít nhất {COMMA16} khách vào cuối tháng {MONTHYEAR}, với đánh giá công viên từ 600 trở lên
+STR_2387    :{BLACK}Đạt giá trị công viên ít nhất {POP16}{POP16}{CURRENCY} vào cuối {PUSH16}{PUSH16}{PUSH16}{MONTHYEAR}
 STR_2388    :{BLACK}Have Fun!
 STR_2389    :{BLACK}Build the best {STRINGID} you can!
-STR_2390    :{BLACK}To have 10 different types of roller coasters operating in your park, each with an excitement value of at least 6.00
-STR_2391    :{BLACK}To have at least {COMMA16} guests in your park. You must not let the park rating drop below 700 at any time!
+STR_2390    :{BLACK}Có 10 loại tàu lượn khác nhau trong công viên, mỗi cái có chỉ số phấn khích ít nhất 6.00
+STR_2391    :{BLACK}Có ít nhất {COMMA16} khách. Không được để đánh giá công viên thấp hơn 700 ở bất kỳ thời điểm nào!
 STR_2392    :{BLACK}To achieve a monthly income from ride tickets of at least {POP16}{POP16}{CURRENCY}
 STR_2393    :{BLACK}To have 10 different types of roller coasters operating in your park, each with a minimum length of {LENGTH}, and an excitement rating of at least 7.00
 STR_2394    :{BLACK}To finish building all 5 of the partially built roller coasters in this park, designing them to achieve excitement ratings of at least {POP16}{POP16}{COMMA2DP32} each
 STR_2395    :{BLACK}To repay your loan and achieve a park value of at least {POP16}{POP16}{CURRENCY}
 STR_2396    :{BLACK}To achieve a monthly profit from food, drink and merchandise sales of at least {POP16}{POP16}{CURRENCY}
-STR_2397    :None
+STR_2397    :Không
 STR_2398    :Number of guests at a given date
 STR_2399    :Park value at a given date
 STR_2400    :Have fun
@@ -1757,44 +1758,44 @@ STR_2405    :Build 10 roller coasters of a given length
 STR_2406    :Finish building 5 roller coasters
 STR_2407    :Repay loan and achieve a given park value
 STR_2408    :Monthly profit from food/merchandise
-STR_2409    :{WINDOW_COLOUR_2}Marketing campaigns in operation
-STR_2410    :{BLACK}None
-STR_2411    :{WINDOW_COLOUR_2}Marketing campaigns available
-STR_2412    :Start this marketing campaign
-STR_2413    :{BLACK}({CURRENCY2DP} per week)
-STR_2414    :(Not Selected)
-STR_2415    :{WINDOW_COLOUR_2}Ride:
-STR_2416    :{WINDOW_COLOUR_2}Item:
-STR_2417    :{WINDOW_COLOUR_2}Length of time:
-STR_2418    :Free entry to {STRINGID}
-STR_2419    :Free ride on {STRINGID}
-STR_2420    :Half-price entry to {STRINGID}
-STR_2421    :Free {STRINGID}
-STR_2424    :{WINDOW_COLOUR_2}Vouchers for free entry to the park
-STR_2425    :{WINDOW_COLOUR_2}Vouchers for free rides on a particular ride
-STR_2426    :{WINDOW_COLOUR_2}Vouchers for half-price entry to the park
-STR_2427    :{WINDOW_COLOUR_2}Vouchers for free food or drink
-STR_2428    :{WINDOW_COLOUR_2}Advertising campaign for the park
-STR_2429    :{WINDOW_COLOUR_2}Advertising campaign for a particular ride
-STR_2430    :{BLACK}Vouchers for free entry to {STRINGID}
-STR_2431    :{BLACK}Vouchers for free ride on {STRINGID}
-STR_2432    :{BLACK}Vouchers for half-price entry to {STRINGID}
-STR_2433    :{BLACK}Vouchers for free {STRINGID}
-STR_2434    :{BLACK}Advertising campaign for {STRINGID}
-STR_2435    :{BLACK}Advertising campaign for {STRINGID}
-STR_2436    :1 week
-STR_2443    :{WINDOW_COLOUR_2}Cost per week: {BLACK}{CURRENCY2DP}
-STR_2444    :{WINDOW_COLOUR_2}Total cost: {BLACK}{CURRENCY2DP}
-STR_2445    :Start this marketing campaign
-STR_2446    :{YELLOW}Your marketing campaign for free entry to the park has finished
-STR_2447    :{YELLOW}Your marketing campaign for free rides on {STRINGID} has finished
-STR_2448    :{YELLOW}Your marketing campaign for half-price entry to the park has finished
-STR_2449    :{YELLOW}Your marketing campaign for free {STRINGID} has finished
-STR_2450    :{YELLOW}Your advertising campaign for the park has finished
-STR_2451    :{YELLOW}Your advertising campaign for {STRINGID} has finished
-STR_2452    :{WINDOW_COLOUR_2}Cash (less loan): {BLACK}{CURRENCY2DP}
-STR_2453    :{WINDOW_COLOUR_2}Cash (less loan): {RED}{CURRENCY2DP}
-STR_2454    :{BLACK}{CURRENCY2DP} -
+STR_2409    :{WINDOW_COLOUR_2}Các chiến dịch quảng cáo đang vận hành
+STR_2410    :{BLACK}Không
+STR_2411    :{WINDOW_COLOUR_2}Các chiến dịch quảng cáo có thể bắt đầu
+STR_2412    :Bắt đầu chiến dịch quảng cáo này
+STR_2413    :{BLACK}({CURRENCY2DP} mỗi tuần)
+STR_2414    :(Chưa chọn)
+STR_2415    :{WINDOW_COLOUR_2}Trò chơi:
+STR_2416    :{WINDOW_COLOUR_2}Hàng:
+STR_2417    :{WINDOW_COLOUR_2}Thời gian:
+STR_2418    :Miễn phí cho {STRINGID}
+STR_2419    :Miến phí chơi {STRINGID}
+STR_2420    :Giảm nửa giá cho {STRINGID}
+STR_2421    :Miễn phí {STRINGID}
+STR_2424    :{WINDOW_COLOUR_2}Voucher vào cổng miễn phí
+STR_2425    :{WINDOW_COLOUR_2}Voucher chơi miễn phí một trò chơi
+STR_2426    :{WINDOW_COLOUR_2}Voucher giảm nửa giá vào cổng
+STR_2427    :{WINDOW_COLOUR_2}Voucher miễn phí thức ăn nước uống
+STR_2428    :{WINDOW_COLOUR_2}Chiến dịch quảng cáo cho công viên
+STR_2429    :{WINDOW_COLOUR_2}Chiến dịch quảng cáo cho một trò chơi
+STR_2430    :{BLACK}Vouchers miễn phí cho {STRINGID}
+STR_2431    :{BLACK}Vouchers miễn phí chơi {STRINGID}
+STR_2432    :{BLACK}Vouchers giảm nửa giá cho {STRINGID}
+STR_2433    :{BLACK}Vouchers miễn phí {STRINGID}
+STR_2434    :{BLACK}Chiến dịch quảng cáo cho {STRINGID}
+STR_2435    :{BLACK}Chiến dịch quảng cáo cho {STRINGID}
+STR_2436    :1 tuần
+STR_2443    :{WINDOW_COLOUR_2}Chi phí mỗi tuần: {BLACK}{CURRENCY2DP}
+STR_2444    :{WINDOW_COLOUR_2}Tổng chi phí: {BLACK}{CURRENCY2DP}
+STR_2445    :Bắt đầu chiến dịch quảng cáo này
+STR_2446    :{YELLOW}Chiến dịch quảng cáo miễn phí vào cổng đã kết thúc
+STR_2447    :{YELLOW}Chiến dịch quảng cáo chơi miễn phí {STRINGID} đã kết thúc
+STR_2448    :{YELLOW}Chiến dịch quảng cáo giảm nửa giá vào cổng đã kết thúc
+STR_2449    :{YELLOW}Chiến dịch quảng cáo {STRINGID} miễn phí đã kết thúc
+STR_2450    :{YELLOW}Chiến dịch quảng cáo cho công viên đã kết thúc
+STR_2451    :{YELLOW}Chiến dịch quảng cáo cho {STRINGID} đã kết thúc
+STR_2452    :{WINDOW_COLOUR_2}Tiền (trừ đi nợ): {BLACK}{CURRENCY2DP}
+STR_2453    :{WINDOW_COLOUR_2}Tiền (trừ đi nợ): {RED}{CURRENCY2DP}
+STR_2454    :{SMALLFONT}{BLACK}{CURRENCY2DP} -
 STR_2457    :Show financial accounts
 STR_2458    :Show graph of cash (less loan) over time
 STR_2459    :Show graph of park value over time
@@ -1807,22 +1808,22 @@ STR_2465    :Show park entrance price and information
 STR_2466    :Show park statistics
 STR_2467    :Show objectives for this game
 STR_2468    :Show recent awards this park has received
-STR_2469    :Select level of research & development
-STR_2470    :Research new transport rides
-STR_2471    :Research new gentle rides
-STR_2472    :Research new roller coasters
-STR_2473    :Research new thrill rides
-STR_2474    :Research new water rides
-STR_2475    :Research new shops and stalls
-STR_2476    :Research new scenery and theming
+STR_2469    :Chọn cấp độ nghiên cứu và phát triển
+STR_2470    :Nghiên cứu trò chơi vận tải mới
+STR_2471    :Nghiên cứu trò chơi nhẹ nhàng mới
+STR_2472    :Nghiên cứu tàu lượn siêu tốc mới
+STR_2473    :Nghiên cứu trò chơi cảm giác mạnh mới
+STR_2474    :Nghiên cứu trò chơi nước mới
+STR_2475    :Nghiên cứu cửa hàng mới
+STR_2476    :Nghiên cứu cảnh quan mới
 STR_2477    :Select operating mode for this ride/attraction
 STR_2478    :Show graph of velocity against time
 STR_2479    :Show graph of altitude against time
 STR_2480    :Show graph of vertical acceleration against time
 STR_2481    :Show graph of lateral acceleration against time
 STR_2482    :Profit: {CURRENCY} per week,  Park Value: {CURRENCY}
-STR_2483    :{WINDOW_COLOUR_2}Weekly profit: {BLACK}+{CURRENCY2DP}
-STR_2484    :{WINDOW_COLOUR_2}Weekly profit: {RED}{CURRENCY2DP}
+STR_2483    :{WINDOW_COLOUR_2}Lợi nhuận theo tuần: {BLACK}+{CURRENCY2DP}
+STR_2484    :{WINDOW_COLOUR_2}Lợi nhuận theo tuần: {RED}{CURRENCY2DP}
 STR_2487    :Show ‘real’ names of guests
 STR_2488    :Toggle between showing ‘real’ names of guests and guest numbers
 STR_2489    :Shortcut keys…
@@ -1904,6 +1905,7 @@ STR_2636    :NumPad /
 STR_2669    :NumLock
 STR_2670    :Scroll
 STR_2680    :All research complete
+STR_2681    :{MEDIUMFONT}{BLACK}Increases your money by {CURRENCY}
 STR_2684    :Large group of guests arrive
 STR_2685    :Simplex Noise Parameters
 STR_2686    :Low:
@@ -1946,8 +1948,8 @@ STR_2732    :{COMMA32} ft
 STR_2733    :{COMMA32} m
 STR_2734    :{COMMA16} mph
 STR_2735    :{COMMA16} km/h
-STR_2736    :{MONTH}, Year {COMMA16}
-STR_2737    :{STRINGID} {MONTH}, Year {COMMA16}
+STR_2736    :{MONTH}, năm thứ {COMMA16}
+STR_2737    :{STRINGID} {MONTH}, năm thứ {COMMA16}
 STR_2738    :Title screen music:
 STR_2739    :None
 STR_2740    :RollerCoaster Tycoon 1
@@ -1984,13 +1986,13 @@ STR_2783    :CTRL +
 STR_2784    :Change keyboard shortcut
 STR_2785    :{WINDOW_COLOUR_2}Press new shortcut key for:{NEWLINE}“{STRINGID}”
 STR_2786    :Click on shortcut description to select new key
-STR_2787    :{WINDOW_COLOUR_2}Park value: {BLACK}{CURRENCY}
+STR_2787    :{WINDOW_COLOUR_2}Giá trị công viên: {BLACK}{CURRENCY}
 STR_2788    :{WINDOW_COLOUR_2}Congratulations!{NEWLINE}{BLACK}You achieved your objective with a company value of {CURRENCY}!
 STR_2789    :{WINDOW_COLOUR_2}You have failed your objective!
 STR_2790    :Enter name into scenario chart
 STR_2791    :Enter name
 STR_2792    :Please enter your name for the scenario chart:
-STR_2793    :(Completed by {STRINGID})
+STR_2793    :{SMALLFONT}(Completed by {STRINGID})
 STR_2794    :{WINDOW_COLOUR_2}Completed by: {BLACK}{STRINGID}{NEWLINE}{WINDOW_COLOUR_2} with a company value of: {BLACK}{CURRENCY}
 STR_2795    :Sort
 STR_2796    :Sort the ride list into order using the information type displayed
@@ -2003,14 +2005,14 @@ STR_2802    :Map
 STR_2803    :Show these guests highlighted on map
 STR_2804    :Show these staff members highlighted on map
 STR_2805    :Show map of park
-STR_2806    :{RED}Guests are complaining about the disgusting state of the paths in your park{NEWLINE}Check where your handymen are and consider organising them better
-STR_2807    :{RED}Guests are complaining about the amount of litter in your park{NEWLINE}Check where your handymen are and consider organising them better
-STR_2808    :{RED}Guests are complaining about the vandalism in your park{NEWLINE}Check where your security guards are and consider organising them better
-STR_2809    :{RED}Guests are hungry and can’t find anywhere to buy food
-STR_2810    :{RED}Guests are thirsty and can’t find anywhere to buy drinks
-STR_2811    :{RED}Guests are complaining because they can’t find the toilets in your park
-STR_2812    :{RED}Guests are getting lost or stuck{NEWLINE}Check whether the layout of your footpaths needs improving to help the guests find their way around
-STR_2813    :{RED}Your park entrance fee is too high!{NEWLINE}Reduce your entrance fee or improve the value of the park to attract more guests
+STR_2806    :{RED}Khách đang phàn nàn đường trong công viên quá bẩn{NEWLINE}Hãy kiểm tra những lao công đang ở đâu và nên sắp xếp họ tốt hơn
+STR_2807    :{RED}Khách đang phàn nàn rằng có quá nhiều rác trong công viên{NEWLINE}Hãy kiểm tra những lao công đang ở đâu và nên sắp xếp họ tốt hơn
+STR_2808    :{RED}Khách đang phàn nàn về sự phá hoại trong công viên{NEWLINE}Hãy kiểm tra những bảo vệ đang ở đâu và nên sắp xếp họ tốt hơn
+STR_2809    :{RED}Khách không tìm được nơi bán thức ăn
+STR_2810    :{RED}Khách không tìm được nơi bán nước uống
+STR_2811    :{RED}Khách đang phàn nàn vì không thể tìm được nhà vệ sinh
+STR_2812    :{RED}Khách đang đi lạc hoặc bị kẹt{NEWLINE}Hãy kiểm tra hệ thống đường trong công viên
+STR_2813    :{RED}Giá vé vào cổng quá cao!{NEWLINE}Hãy giảm giá vé vào cổng hoặc tăng giá trị công viên để thu hút nhiều khách hơn
 STR_2814    :{WINDOW_COLOUR_2}Most untidy park award
 STR_2815    :{WINDOW_COLOUR_2}Tidiest park award
 STR_2816    :{WINDOW_COLOUR_2}Award for the park with the best roller coasters
@@ -2327,7 +2329,7 @@ STR_3231    :Block Brakes cannot be used directly after the top of this lift hil
 STR_3232    :Options - Financial
 STR_3233    :Options - Guests
 STR_3234    :Options - Park
-STR_3235    :Show financial options
+STR_3235    :Tài chính
 STR_3236    :Show guest options
 STR_3237    :Show park options
 STR_3238    :No Money
@@ -2400,7 +2402,7 @@ STR_3304    :{WINDOW_COLOUR_2}Park value:
 STR_3305    :{WINDOW_COLOUR_2}Monthly income:
 STR_3306    :{WINDOW_COLOUR_2}Monthly profit:
 STR_3307    :{WINDOW_COLOUR_2}Minimum length:
-STR_3308    :{WINDOW_COLOUR_2}Excitement rating:
+STR_3308    :{WINDOW_COLOUR_2}Độ phấn khích:
 STR_3309    :{WINDOW_COLOUR_2}{COMMA16}
 STR_3310    :{WINDOW_COLOUR_2}{LENGTH}
 STR_3311    :{WINDOW_COLOUR_2}{COMMA2DP32}
@@ -2473,9 +2475,9 @@ STR_3383    :Select new name for track design
 STR_3384    :An existing track design already has this name. Please select a new name for this design:
 STR_3389    :Unable to select additional item of scenery…
 STR_3390    :Too many items selected
-STR_3437    :Clear large areas of scenery from landscape
+STR_3437    :Xóa cảnh quan trong một khu vực lớn
 STR_3438    :Unable to remove all scenery from here…
-STR_3439    :Clear Scenery
+STR_3439    :Xóa cảnh quan
 STR_3445    :Set Patrol Area
 STR_3446    :Cancel Patrol Area
 
@@ -2497,7 +2499,7 @@ STR_5134    :Adjust larger area of land rights
 STR_5135    :Buy land rights and construction rights
 STR_5136    :Land rights
 STR_5137    :Unlock operating limits
-STR_5138    :{WINDOW_COLOUR_2}{STRINGID}
+STR_5138    :{SMALLFONT}{WINDOW_COLOUR_2}{STRINGID}
 STR_5139    :{WHITE}{STRINGID}
 STR_5140    :Disable brakes failure
 STR_5141    :Disable all breakdowns
@@ -2518,7 +2520,7 @@ STR_5155    :Allow testing of unfinished tracks
 STR_5156    :Allows testing of most ride types even when the track is unfinished, does not apply to block sectioned modes
 STR_5158    :Quit to menu
 STR_5159    :Exit OpenRCT2
-STR_5160    :{POP16}{MONTH} {PUSH16}{PUSH16}{STRINGID}, Year {POP16}{COMMA16}
+STR_5160    :{POP16}{MONTH} {PUSH16}{PUSH16}{STRINGID}, năm thứ {POP16}{COMMA16}
 STR_5161    :Date Format:
 STR_5162    :Day/Month/Year
 STR_5163    :Month/Day/Year
@@ -2540,7 +2542,7 @@ STR_5191    :Viewport
 STR_5192    :Recent News
 STR_5193    :Land
 STR_5194    :Water
-STR_5195    :Clear Scenery
+STR_5195    :Xóa cảnh quan
 STR_5196    :Land Rights
 STR_5197    :Scenery
 STR_5198    :Footpath
@@ -2552,7 +2554,7 @@ STR_5203    :Ride
 STR_5204    :Ride List
 STR_5205    :Guest
 STR_5206    :Guest List
-STR_5207    :Staff
+STR_5207    :Nhân viên
 STR_5208    :Staff List
 STR_5209    :Banner
 STR_5210    :Object Selection
@@ -2643,7 +2645,7 @@ STR_5297    :Open park
 STR_5298    :{RED}{STRINGID}
 STR_5299    :{LIGHTPINK}{STRINGID}
 STR_5300    :Quick fire staff
-STR_5301    :Clear your loan
+STR_5301    :{MEDIUMFONT}{BLACK}Clear your loan
 STR_5302    :Clear loan
 STR_5303    :Allow building in pause mode
 STR_5304    :Title Sequence:
@@ -2792,17 +2794,17 @@ STR_5471    :Scroll map down
 STR_5472    :Scroll map right
 STR_5473    :Cycle day / night
 STR_5474    :Display text on banners in uppercase
-STR_5475    :{COMMA16} weeks
+STR_5475    :{COMMA16} tuần
 STR_5476    :Hardware
 STR_5477    :Map rendering
 STR_5478    :Controls
 STR_5479    :Toolbar
 STR_5480    :Show toolbar buttons for:
 STR_5481    :Themes
-STR_5482    :{WINDOW_COLOUR_2}Time since last inspection: {BLACK}1 minute
-STR_5483    :{BLACK}({COMMA16} weeks remaining)
-STR_5484    :{BLACK}({COMMA16} week remaining)
-STR_5485    :{STRING}
+STR_5482    :{WINDOW_COLOUR_2}Lần kiểm tra trước: {BLACK}1 phút
+STR_5483    :{BLACK}(còn {COMMA16} tuần)
+STR_5484    :{BLACK}(còn {COMMA16} tuần)
+STR_5485    :{SMALLFONT}{STRING}
 STR_5486    :{BLACK}{COMMA16}
 STR_5487    :Show recent messages
 STR_5489    :Show only tracked guests
@@ -2905,13 +2907,13 @@ STR_5587    :Shops and stalls will be automatically opened after building them
 STR_5588    :Play with other players
 STR_5589    :Notification Settings
 STR_5590    :Park awards
-STR_5591    :Marketing campaign has finished
-STR_5592    :Park warnings
-STR_5593    :Park rating warnings
-STR_5594    :Ride has broken down
-STR_5595    :Ride has crashed
-STR_5596    :Ride warnings
-STR_5597    :Ride / scenery researched
+STR_5591    :Chiến dịch quảng cáo đã kết thúc
+STR_5592    :Cảnh báo
+STR_5593    :Cảnh báo giá trị công viên
+STR_5594    :Trò chơi đã hỏng
+STR_5595    :Trò chơi đã gặp tai nạn
+STR_5596    :Cảnh báo trò chơi
+STR_5597    :Trò chơi / cảnh quan được nghiên cứu xong
 STR_5598    :Guest warnings
 STR_5600    :Guest has left the park
 STR_5601    :Guest is queuing for ride
@@ -3184,7 +3186,7 @@ STR_5907    :When enabled, zooming in will centre around the cursor, as opposed 
 STR_5908    :Allow arbitrary ride type changes
 STR_5909    :Allows changing ride type freely. May cause crashes.
 STR_5910    :Apply
-STR_5911    :See-Through Paths
+STR_5911    :Nhìn xuyên đường đi
 STR_5912    :See-through paths toggle
 STR_5913    :Chat
 STR_5914    :Unknown ride
@@ -3307,7 +3309,7 @@ STR_6030    :Scenery picker. Click any scenery on the map to select the same pie
 STR_6031    :Server Description:
 STR_6032    :Server Greeting:
 STR_6033    :Path to RCT1 installation:
-STR_6034    :{BLACK}{STRING}
+STR_6034    :{SMALLFONT}{BLACK}{STRING}
 STR_6035    :Please select your RCT1 directory
 STR_6036    :Clear
 STR_6037    :The selected folder does not contain a valid RollerCoaster Tycoon 1 install.
@@ -3399,7 +3401,7 @@ STR_6130    :Copy all
 STR_6131    :Object source
 STR_6132    :Ignore research status
 STR_6133    :Access rides and scenery that have not yet been invented
-STR_6134    :Clear Scenery
+STR_6134    :Xóa cảnh quan
 STR_6135    :Client sent invalid request
 STR_6136    :Server sent invalid request
 STR_6137    :OpenRCT2, a free and open source clone of Roller Coaster Tycoon 2.
@@ -3452,7 +3454,7 @@ STR_6183    :Follow{MOVE_X}{87}No sprite selected
 STR_6184    :Follow Sprite
 STR_6185    :Select Sprite
 STR_6186    :No sprite selected
-STR_6187    :{OUTLINE}{WINDOW_COLOUR_2}{STRING}
+STR_6187    :{MEDIUMFONT}{OUTLINE}{WINDOW_COLOUR_2}{STRING}
 STR_6188    :Vomit
 STR_6189    :Duck
 STR_6190    :You cannot select a sprite while the main title screen is active.
@@ -3602,7 +3604,7 @@ STR_6356    :Spawns ducks if park contains water
 STR_6357    :Removes all ducks from the map
 STR_6358    :Page {UINT16}
 STR_6359    :{POP16}{POP16}Page {UINT16}
-STR_6360    :{BLACK}{COMMA32}
+STR_6360    :{SMALLFONT}{BLACK}{COMMA32}
 STR_6361    :Enable lighting effects on rides (experimental)
 STR_6362    :If enabled, vehicles for tracked rides will be lit up at night.
 STR_6363    :Copied text to clipboard
@@ -3677,11 +3679,6 @@ STR_6431    :RMB
 STR_6432    :Mouse {INT32}
 STR_6433    :Remove
 STR_6434    :Remove all bindings for this shortcut.
-STR_6435    :{WINDOW_COLOUR_2}Vandals stopped: {BLACK}{COMMA16}
-STR_6436    :Toggle invisibility
-STR_6437    :Invisible
-STR_6438    :I
-STR_6439    :Tile Inspector: Toggle invisibility
 
 #############
 # Scenarios #
